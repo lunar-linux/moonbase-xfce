@@ -1,12 +1,13 @@
           MODULE=xfce4-dev-tools
-         VERSION=4.8.0
+           MAJOR=4.9
+         VERSION=$MAJOR.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/xfce/4.8/src/
-      SOURCE_VFY=sha1:50b26c72444c750e4d0942b54746c0224561d4ee
+      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/$MAJOR
+      SOURCE_VFY=sha1:ba309d1286a2be964613e3eb19b08e2aced97bcc
    MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20110118
+         UPDATED=20120318
            SHORT="Developer tools for Xfce4"
 
 cat << EOF

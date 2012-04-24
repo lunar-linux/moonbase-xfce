@@ -1,13 +1,15 @@
           MODULE=tumbler
-         VERSION=0.1.22
+           MAJOR=0.1
+         VERSION=$MAJOR.24
           SOURCE=${MODULE}-${VERSION}.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/tumbler/0.1/
+      SOURCE_URL=http://archive.xfce.org/src/xfce/tumbler/$MAJOR
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:a4c301192f2e086841c62bf8e8d5e3539fc13f1d
-        WEB_SITE="http://xfce.org/"
+      SOURCE_VFY=sha1:c150b948ed6ec71f2d1be68bd92edb7711c8380b
+        WEB_SITE=http://xfce.org
          ENTERED=20110418
-         UPDATED=20110925
+         UPDATED=20120401
            SHORT="Thumbnailer"
+
 cat <<EOF
 Thumbnailer service over D-Bus.
 EOF
