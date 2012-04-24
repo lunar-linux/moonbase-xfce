@@ -1,0 +1,5 @@
+depends  XML-Parser
+depends  exo
+depends  vte
+
+optional_depends  "dbus-glib"  "--enable-dbus"  "--disable-dbus"  "For DBUS support"

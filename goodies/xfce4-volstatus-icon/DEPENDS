@@ -1,0 +1,3 @@
+depends hal
+depends exo
+depends libxfcegui4
