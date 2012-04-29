@@ -1,5 +1,4 @@
 depends exo
-depends libxfce4ui
 depends xfconf
 depends dbus-glib
 depends libXi

@@ -1,13 +1,13 @@
           MODULE=xfce4-diskperf-plugin
-           MAJOR=2.3
-         VERSION=$MAJOR.0
+           MAJOR=2.5
+         VERSION=$MAJOR.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:f771250a21b3e030622fe3717f70fe1367c69901
+      SOURCE_VFY=sha1:0e9f7b09148684e3962ca097744af255131cb6d1
    MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20110121
+         UPDATED=20120429
            SHORT="A disk/partition performance monitor"
 
 cat << EOF

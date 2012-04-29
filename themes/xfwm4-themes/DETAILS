@@ -1,13 +1,13 @@
           MODULE=xfwm4-themes
-           MAJOR=4.6
+           MAJOR=4.10
          VERSION=$MAJOR.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/art/xfwm4-themes/$MAJOR
-      SOURCE_VFY=sha1:7e81d00b2b0a7a2b91071b8c3767171bce738af2
+      SOURCE_VFY=sha1:6608cd2e615e0e058f25ccf2868f903b35b2115f
    MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20090227
+         UPDATED=20120429
            SHORT="Window decoration themes for Xfce4"
 
 cat << EOF

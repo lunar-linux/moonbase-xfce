@@ -1,13 +1,13 @@
           MODULE=Thunar
-           MAJOR=1.3
+           MAJOR=1.4
          VERSION=$MAJOR.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/thunar/$MAJOR
-      SOURCE_VFY=sha1:1d6ee9b6808a5ea8cdd5e53641d501178194bf70
+      SOURCE_VFY=sha1:104b25b38130e008df2116e83e6ab20cd33e4561
    MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://thunar.xfce.org
          ENTERED=20060407
-         UPDATED=20110215
+         UPDATED=20120429
            SHORT="File manager for xfce"
 
 cat << EOF

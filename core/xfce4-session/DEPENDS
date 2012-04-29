@@ -1,6 +1,4 @@
 depends xfconf
-depends libxfce4ui
-depends libxfce4util
 depends libwnck
 depends dbus-glib
 depends xfce4-panel
