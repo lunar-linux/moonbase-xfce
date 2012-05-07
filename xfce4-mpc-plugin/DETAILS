@@ -2,7 +2,7 @@
            MAJOR=0.4
          VERSION=$MAJOR.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://mocha.xfce.org/archive/src/panel-plugins/$MODULE/$MAJOR
+      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
       SOURCE_VFY=sha1:6ffef41977534eff605906d78bdf9552d0b85759
    MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
