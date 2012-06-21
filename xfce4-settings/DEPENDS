@@ -1,5 +1,6 @@
 depends exo
 depends xfconf
+depends garcon
 depends dbus-glib
 depends libXi
 depends libXrandr

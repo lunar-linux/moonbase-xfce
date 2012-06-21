@@ -1,3 +1,4 @@
+depends libSM
 depends xfconf
 depends libwnck
 depends dbus-glib
@@ -6,9 +7,7 @@ depends iceauth
 
 optional_depends gnome-keyring "--enable-libgnome-keyring" "--disable-libgnome-keyring" "Gnome keyring support"
 
-optional_depends upower "" "--disable-upower" "Upower support"
-optional_depends ConsoleKit "" "--disable-consolekit" "ConsoleKit support"
-optional_depends polkit "" "--disable-polkit" "PolicyKit support"
-
-
-optional_depends fortune "" "" "so xfce4-tips can give you the fortune of the day"
+#optional runtime dependencies
+optional_depends upower     "" "" "Upower support"
+optional_depends ConsoleKit "" "" "ConsoleKit support"
+optional_depends polkit     "" "" "PolicyKit support"
