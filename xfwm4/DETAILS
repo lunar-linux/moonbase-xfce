@@ -1,13 +1,13 @@
           MODULE=xfwm4
-           MAJOR=4.8
-         VERSION=$MAJOR.3
+           MAJOR=4.10
+         VERSION=$MAJOR.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:6d27deca383e0c2fba0cede0bbe0e9aee18e9257
+      SOURCE_VFY=sha1:1549954949b5e1f38a2279a39a477b52bb5339f2
    MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20111222
+         UPDATED=20120429
            SHORT="Window manager for Xfce4"
 
 cat << EOF
