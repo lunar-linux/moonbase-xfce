@@ -5,4 +5,3 @@ depends Thunar
 
 optional_depends "gstreamer-10"  ""  ""  "for gstreamer support"
 optional_depends "dbus"          ""  ""  "for D-BUS support"
-optional_depends "hal"           ""  ""  "for HAL support"
