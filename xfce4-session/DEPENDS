@@ -9,5 +9,4 @@ optional_depends gnome-keyring "--enable-libgnome-keyring" "--disable-libgnome-k
 
 #optional runtime dependencies
 optional_depends upower     "" "" "Upower support"
-optional_depends ConsoleKit "" "" "ConsoleKit support"
 optional_depends polkit     "" "" "PolicyKit support"
