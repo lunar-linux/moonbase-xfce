@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
       SOURCE_VFY=sha1:4dc42f96dc16a3bd78f86454ea3a931464e18497
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-xkb-plugin
          ENTERED=20061124
          UPDATED=20120205

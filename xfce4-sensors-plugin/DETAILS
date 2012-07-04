@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/xfce4-sensors-plugin/$MAJOR
       SOURCE_VFY=sha1:e8aaa5555b7466952534b1ff4ca64d7bee5df5ab
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin
          ENTERED=20061124
          UPDATED=20120517

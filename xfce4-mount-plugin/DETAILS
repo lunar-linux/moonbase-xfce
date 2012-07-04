@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
       SOURCE_VFY=sha1:d132a9bbd15398dc1e83e28c6cb3801089c7fa2e
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-mount-plugin
          ENTERED=20061124
          UPDATED=20120514

@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/terminal/$MAJOR
       SOURCE_VFY=sha1:2f12c3a0fffad18976d47e531d404ee308cb2f05
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org/projects/terminal
          ENTERED=20040930
          UPDATED=20110623

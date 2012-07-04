@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
       SOURCE_VFY=sha1:155952e90c25aaed6c1bba5dc17a4733251fb203
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/verve-plugin
          ENTERED=20061124
          UPDATED=20110112

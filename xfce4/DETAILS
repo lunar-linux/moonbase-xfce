@@ -3,7 +3,6 @@
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/${MODULE}
         WEB_SITE=http://www.xfce.org
       MAINTAINER=jasper@lunar-linux.org
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
          ENTERED=20030715
          UPDATED=20120429
            SHORT="A lightweight desktop environment based on GTK2"

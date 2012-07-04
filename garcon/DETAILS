@@ -4,7 +4,6 @@
         SOURCE=$MODULE-$VERSION.tar.bz2
     SOURCE_URL=http://archive.xfce.org/src/libs/garcon/$MAJOR
     SOURCE_VFY=sha1:31225a278f391441c8d8bf50aabb85a264b76c2f
- MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
       WEB_SITE=http://www.xfce.org
        ENTERED=20110118
        UPDATED=20120429

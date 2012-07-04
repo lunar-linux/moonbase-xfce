@@ -4,7 +4,6 @@
    SOURCE_URL[0]=$MIRROR_URL
    SOURCE_URL[1]=http://goodies.xfce.org/releases/thunar-thumbnailers
       SOURCE_VFY=sha1:584e435e9be23d78280e1306430c6d37dd63fcaa
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://goodies.xfce.org/projects/thunar-plugins/thunar-thumbnailers.html
          ENTERED=20070216
          UPDATED=20090427

@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/bindings/$MODULE/$MAJOR
       SOURCE_VFY=sha1:471689b48e46210eecaadaf8049bfeb09517c383
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20110613
          UPDATED=20110613

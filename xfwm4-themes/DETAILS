@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/art/xfwm4-themes/$MAJOR
       SOURCE_VFY=sha1:6608cd2e615e0e058f25ccf2868f903b35b2115f
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
          UPDATED=20120429

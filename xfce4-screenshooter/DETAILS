@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/xfce4-screenshooter/$MAJOR
       SOURCE_VFY=sha1:4343f32e5d23d12065c2990de27cef0cf88f1326
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
          UPDATED=20120506

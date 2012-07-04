@@ -7,7 +7,6 @@
    SOURCE_URL[2]=http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo/distfiles
    SOURCE_URL[3]=http://mirror.internode.on.net/pub/gentoo/distfiles
       SOURCE_VFY=sha1:46d8dead23db347db7aae56b90ecca4a1dedf545
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://goodies.xfce.org/projects/applications/notification-daemon-xfce
          ENTERED=20061124
          UPDATED=20071003

@@ -4,7 +4,6 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/thunar-plugins/$MODULE/$MAJOR
       SOURCE_VFY=sha1:79a008709c61f1c4b4c35b6393abfd24bc60309b
-   MODULE_PREFIX=${XFCE4_PREFIX:-/usr}
         WEB_SITE=http://foo-projects.org/~benny/projects/thunar-archive-plugin/index.html
          ENTERED=20070123
          UPDATED=20110124
