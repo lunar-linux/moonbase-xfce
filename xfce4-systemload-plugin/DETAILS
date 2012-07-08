@@ -1,12 +1,12 @@
           MODULE=xfce4-systemload-plugin
            MAJOR=1.1
-         VERSION=$MAJOR.0
+         VERSION=$MAJOR.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:78eef9f2abc9e425c102f1f71324fe5a507daebf
+      SOURCE_VFY=sha1:aa48b0163dd973790a55ddcc3a224878a3f14c69
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20120424
+         UPDATED=20120704
            SHORT="system load plugin for the Xfce panel"
 
 cat << EOF
