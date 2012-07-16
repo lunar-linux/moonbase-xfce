@@ -1,12 +1,12 @@
           MODULE=xfce4-netload-plugin
-           MAJOR=1.1
+           MAJOR=1.2
          VERSION=$MAJOR.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:8029daacf1602275c75ab07d1e2cccea0993caab
+      SOURCE_VFY=sha1:71e09d84a6c13123bbc92c2cfdcadff87650dc73
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20120116
+         UPDATED=20120716
            SHORT="A XFce4 Netload plugin"
 
 cat << EOF
