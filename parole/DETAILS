@@ -1,12 +1,12 @@
           MODULE=parole
-           MAJOR=0.2
-         VERSION=$MAJOR.0.6
+           MAJOR=0.3
+         VERSION=$MAJOR.0.3
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:72f6bd8f20ce62586553a653fe6d698d424179c4
+      SOURCE_VFY=sha1:889dd89f74bc02d46d7ecdd7edfe2488f79b45ba
         WEB_SITE=http://goodies.xfce.org/projects/applications/$MODULE
          ENTERED=20110329
-         UPDATED=20110419
+         UPDATED=20120827
            SHORT="media player for the Xfce desktop"
 
 cat << EOF
