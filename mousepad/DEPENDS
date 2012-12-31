@@ -1,1 +1,3 @@
-depends libxfcegui4
+depends desktop-file-utils
+depends dbus-glib
+depends gtksourceview
