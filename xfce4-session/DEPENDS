@@ -5,6 +5,9 @@ depends dbus-glib
 depends xfce4-panel
 depends iceauth
 
+# for applying the patch
+depends xfce4-dev-tools
+
 optional_depends gnome-keyring "--enable-libgnome-keyring" "--disable-libgnome-keyring" "Gnome keyring support"
 
 #optional runtime dependencies
