@@ -1,9 +1,11 @@
           MODULE=xfce4-session
-           MAJOR=4.10
-         VERSION=$MAJOR.0
+         VERSION=4.10.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/$MAJOR
+         SOURCE2=$MODULE-$VERSION-add-systemd-support.patch
+      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION::4}
+     SOURCE2_URL=$PATCH_URL
       SOURCE_VFY=sha1:a956b67816fb06c50990c604d0a09c402b20302c
+     SOURCE2_VFY=sha1:f075d9a4c810c8a8917f0fd980bec691d97520e5
         WEB_SITE=http://www.xfce.org/projects/xfce4-session
          ENTERED=20030715
          UPDATED=20120429
