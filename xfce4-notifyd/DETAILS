@@ -1,11 +1,11 @@
           MODULE=xfce4-notifyd
-         VERSION=0.2.3
+         VERSION=0.2.4
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:d71ec8a8f703a4c2b49f8808187ca425e5252bd1
+      SOURCE_VFY=sha1:66458a41f0ddeb350e5fb2e4d7cadfef6a5066f7
         WEB_SITE=http://goodies.xfce.org/projects/applications/xfce4-notifyd
          ENTERED=20110121
-         UPDATED=20130428
+         UPDATED=20130509
            SHORT="A notification daemon for the XFCE desktop"
 
 cat << EOF
