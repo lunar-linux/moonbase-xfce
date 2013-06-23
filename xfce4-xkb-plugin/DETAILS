@@ -1,11 +1,11 @@
           MODULE=xfce4-xkb-plugin
-         VERSION=0.5.5
+         VERSION=0.5.6
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:d26e906afed5bdf19d44112c692d7bf8820d20d5
+      SOURCE_VFY=sha1:35e3fcacce95854b29c2a1e6455cf914da39f9a7
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-xkb-plugin
          ENTERED=20061124
-         UPDATED=20130514
+         UPDATED=20130622
            SHORT="A keyboard layout switcher"
 
 cat << EOF
