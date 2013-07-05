@@ -1,11 +1,11 @@
           MODULE=parole
-         VERSION=0.5.0
+         VERSION=0.5.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:c34a33f92534a93c4cb1b92c4c8ab09f36871fe6
+      SOURCE_VFY=sha1:7ebda4399e554e30cb824ec4910281c80ab9ed76
         WEB_SITE=http://goodies.xfce.org/projects/applications/$MODULE
          ENTERED=20110329
-         UPDATED=20130309
+         UPDATED=20130623
            SHORT="media player for the Xfce desktop"
 
 cat << EOF
