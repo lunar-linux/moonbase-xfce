@@ -1,0 +1,13 @@
+          MODULE=xfce4-mailwatch-plugin
+         VERSION=1.2.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:d0ab5e543211b951e01242efeb4ab3145db5c4c4
+        WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-mailwatch-plugin
+         ENTERED=20131221
+         UPDATED=20131221
+           SHORT="A mailbox watch/check plugin for the Xfce4 panel"
+
+cat << EOF
+A mailbox watch/check plugin for the Xfce4 panel.
+EOF
