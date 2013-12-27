@@ -1,12 +1,11 @@
           MODULE=xfce4-appfinder
-           MAJOR=4.10
-         VERSION=$MAJOR.0
+         VERSION=4.10.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/xfce/$MAJOR/src
-      SOURCE_VFY=sha1:f34bfb2809ab679f4df46ed1d712ab5a35d44b9b
+      SOURCE_URL=http://archive.xfce.org/src/xfce/xfce4-appfinder/${VERSION%.*}
+      SOURCE_VFY=sha1:5d8295faa8143bcd0b4985eb9f28fdc56d63fce2
         WEB_SITE=http://www.xfce.org
          ENTERED=20041003
-         UPDATED=20120429
+         UPDATED=20131105
            SHORT="Easy search available applications"
 
 cat << EOF
