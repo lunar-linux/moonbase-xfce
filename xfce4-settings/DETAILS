@@ -1,12 +1,11 @@
           MODULE=xfce4-settings
-           MAJOR=4.10
-         VERSION=$MAJOR.0
+         VERSION=4.11.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:4ecf8c6db4e5ad9ed2fa04a34c65532cfaf362db
+      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:f35c00dae6f4c184b78cab7245fe1b85bec25d9c
         WEB_SITE=http://www.xfce.org
          ENTERED=20090227
-         UPDATED=20120429
+         UPDATED=20131105
            SHORT="Xfce settings manager"
 
 cat << EOF
