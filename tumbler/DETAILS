@@ -1,13 +1,12 @@
           MODULE=tumbler
-           MAJOR=0.1
-         VERSION=$MAJOR.25
-          SOURCE=${MODULE}-${VERSION}.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/tumbler/$MAJOR
+         VERSION=0.1.29
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://archive.xfce.org/src/xfce/tumbler/${VERSION%.*}
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:50953e05c6889f60de6cdf9f6dd4dba5633f8b75
+      SOURCE_VFY=sha1:9037050413a32726b2061e71c804be3c1b5a69a0
         WEB_SITE=http://xfce.org
          ENTERED=20110418
-         UPDATED=20120429
+         UPDATED=20131105
            SHORT="Thumbnailer"
 
 cat <<EOF
