@@ -1,11 +1,11 @@
           MODULE=gigolo
-         VERSION=0.4.1
+         VERSION=0.4.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://files.uvena.de/gigolo
-      SOURCE_VFY=sha1:644d0d6b15940ad2c48f5edfd72d02b3f6015f44
+      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:36818e1443de6aaaabd96f092e599cf6d398c97f
         WEB_SITE=http://www.uvena.de/gigolo
          ENTERED=20090329
-         UPDATED=20110306
+         UPDATED=20140223
            SHORT="front-end to manage connections to remote filesystems"
 
 cat << EOF
