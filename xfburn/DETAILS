@@ -1,11 +1,11 @@
           MODULE=xfburn
-         VERSION=0.5.0
+         VERSION=0.5.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:def2ced9a74b5112e992149ce901f3a5a73f20d9
+      SOURCE_VFY=sha1:d0a39b331353ccbc73b027a09c87bcbc45d9a312
         WEB_SITE=http://goodies.xfce.org/projects/applications/xfburn
          ENTERED=20090227
-         UPDATED=20140223
+         UPDATED=20140410
            SHORT="Cd burning application for Xfce"
 
 cat << EOF
