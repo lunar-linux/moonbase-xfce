@@ -1,7 +1,7 @@
           MODULE=squeeze
          VERSION=0.2.3
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://squeeze.xfce.org/downloads/
+      SOURCE_URL=http://archive.xfce.org/src/apps/squeeze/0.2/
       SOURCE_VFY=sha1:218f0e61e1d105f1f9aa898a56837f78ce65aaac
         WEB_SITE=http://squeeze.xfce.org
          ENTERED=20070129
