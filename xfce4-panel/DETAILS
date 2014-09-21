@@ -1,11 +1,11 @@
           MODULE=xfce4-panel
-         VERSION=4.10.1
+         VERSION=4.11.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:b00cabae3b98a0adb83060466872bcaed47461ed
+      SOURCE_VFY=sha1:d6fbb829900a6b1cc87dc00283c52ef53031c5d3
         WEB_SITE=http://www.xfce.org/projects/xfce4-panel
          ENTERED=20030715
-         UPDATED=20131105
+         UPDATED=20140223
            SHORT="Xfce4 panel"
 
 cat << EOF

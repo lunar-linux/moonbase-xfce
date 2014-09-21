@@ -1,11 +1,11 @@
           MODULE=xfwm4
-         VERSION=4.11.0
+         VERSION=4.11.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:e4de6439144fcb8c2cfed631960c56e4d6c20382
-        WEB_SITE=http://www.xfce.org
+      SOURCE_VFY=sha256:aae1ed7ef1ae77800343e7c43811ab8ef786a9498efc5c10e8ed28b2eba04779
+        WEB_SITE=http://www.xfce.org/
          ENTERED=20030715
-         UPDATED=20131105
+         UPDATED=20140921
            SHORT="Window manager for Xfce4"
 
 cat << EOF
