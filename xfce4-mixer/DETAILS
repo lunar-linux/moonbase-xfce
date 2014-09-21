@@ -1,12 +1,11 @@
           MODULE=xfce4-mixer
-           MAJOR=4.10
-         VERSION=$MAJOR.0
+         VERSION=4.11.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:8d2fda90f293603496bd23426486315ccf8d06f9
+      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:c7829f85552d210c62c76fce274e07f7ae7b2565
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20120117
+         UPDATED=20140410
            SHORT="Volume control and mixer for the Xfce4 panel"
 
 cat << EOF
