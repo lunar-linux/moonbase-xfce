@@ -1,11 +1,11 @@
           MODULE=xfce4-cpufreq-plugin
-         VERSION=1.1.0
+         VERSION=1.1.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:6dc257c64c07497f21fafb6bcd95caf57ebe8630
+      SOURCE_VFY=sha256:474c45c007e65bfc107d6bcc902330c5e964906e6da120af48f7e2dba7f5cae7
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-cpufreq-plugin
          ENTERED=20061124
-         UPDATED=20130907
+         UPDATED=20141225
            SHORT="CpuFreq Plugin for the Xfce panel"
 
 cat << EOF
