@@ -1,2 +1,4 @@
 depends libxfcegui4
 depends libxfce4util
+
+optional_depends libwnck "--enable-wnck" "--disable-wnck" "for window icons/names"
