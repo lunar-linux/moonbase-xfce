@@ -1,2 +1,9 @@
 depends xfce4-panel
+
+depends dbus-glib
+depends upower
+
+depends libnotify4
+depends xrandr
+
 depends pm-utils
