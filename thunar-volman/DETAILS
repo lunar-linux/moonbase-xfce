@@ -1,12 +1,11 @@
           MODULE=thunar-volman
-           MAJOR=0.8
-         VERSION=$MAJOR.0
+         VERSION=0.8.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:2e62c9b0bec5c164e9c632671c81966c4220823c
+      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha1:fa76fa0089f85f23b1efbdfb76a70039de7f7e8b
         WEB_SITE=http://goodies.xfce.org/projects/thunar-plugins/thunar-volman
          ENTERED=20070123
-         UPDATED=20120429
+         UPDATED=20150228
            SHORT="Automatic management of removable drives and media"
 
 cat << EOF
