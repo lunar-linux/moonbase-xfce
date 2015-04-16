@@ -1,11 +1,11 @@
           MODULE=gtk-xfce-engine
-         VERSION=2.10.0
+         VERSION=2.10.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:4046ecd36886f4f7399a64230e516bd0e697448f
+      SOURCE_VFY=sha256:4a92910205881f707f2cc8d3c9b00a95feb58eb9084d932c841f3ed027f7063d
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20150228
+         UPDATED=20150416
            SHORT="A gtk+-2 theme engine designed for Xfce"
 
 cat << EOF
