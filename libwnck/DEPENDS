@@ -1,2 +1,4 @@
 depends  gtk+-2
 depends  startup-notification
+
+optional_depends gobject-introspection "--enable-introspection" "--disable-introspection" "introspection support"
