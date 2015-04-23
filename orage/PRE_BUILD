@@ -1,0 +1,4 @@
+default_pre_build &&
+
+# they forgot to add libnotify includes...
+sedit 's/DBUS_CFLAGS)/\0 $(NOTIFY_CFLAGS)/' src/Makefile.in
