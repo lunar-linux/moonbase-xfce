@@ -1,13 +1,12 @@
           MODULE=ristretto
-           MAJOR=0.6
-         VERSION=$MAJOR.3
+         VERSION=0.8.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:11817ee46f6711b0dc54503fcff35eb56a36bd6e
+      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
+      SOURCE_VFY=sha256:71625324cecda7199acbc95a3ea5132d0dcbf808771e7a209ea2b9503ae4f328
         WEB_SITE=http://goodies.xfce.org/projects/applications/ristretto
          ENTERED=20070826
-         UPDATED=20120815
-           SHORT="fast and lightweight picture-viewer"
+         UPDATED=20150309
+           SHORT="Fast and lightweight picture-viewer"
 
 cat << EOF
 Ristretto is a fast and lightweight picture-viewer for the Xfce desktop
