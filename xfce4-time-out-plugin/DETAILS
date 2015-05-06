@@ -1,12 +1,11 @@
           MODULE=xfce4-time-out-plugin
-           MAJOR=1.0
-         VERSION=$MAJOR.1
+         VERSION=1.0.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/$MAJOR
-      SOURCE_VFY=sha1:e1590a4abf9a27ce0d030ae0ad8d6c6752b9fc05
+      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:c69fb7218c685e516454810291c5245c49a80d774a6bded59c645a1af427c4e5
         WEB_SITE=http://www.xfce.org
          ENTERED=20120424
-         UPDATED=20120424
+         UPDATED=20150315
            SHORT="A XFCE4 plugin for programming breaks"
 
 cat << EOF
