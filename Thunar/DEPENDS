@@ -2,6 +2,7 @@ depends exo
 depends libpng
 depends shared-mime-info
 
+optional_depends libgudev "--enable-gudev" "--disable-gudev" "enable gudev support (required by thunar-volman)"
 optional_depends libexif "" "" "Exif support"
 optional_depends startup-notification "" "" "Startup notification"
 optional_depends xfconf "" "" "Xfconf support"
