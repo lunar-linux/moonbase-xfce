@@ -1,11 +1,14 @@
-depends  URI
-depends  libxfce4ui
-depends  gtk+-2
+depends URI
+depends gtk+-2
+depends libxfce4ui
+depends intltool
 
-optional_depends  "pygtk"             \
-                  "--enable-python"   \
-                  "--disable-python"  \
-                  "build python bindings"
+optional_depends pygtk \
+                 "--enable-python"  \
+                 "--disable-python" \
+                 "build python bindings"
 
-
-
+optional_depends gtk-doc \
+                 "--enable-gtk-doc"  \
+                 "--disable-gtk-doc" \
+                 "for building documentation"
