@@ -1,1 +1,1 @@
-mquery WITH_COMPOSITE "Enable the build-in compositor?" y "--enable-compositor" "--disable-compositor"
+mquery WITH_COMPOSITE "Enable the built-in compositor?" y "--enable-compositor" "--disable-compositor"
