@@ -3,9 +3,9 @@ depends intltool
 optional_depends gtk+-3 \
                  "--enable-gtk3" \
                  "--disable-gtk3" \
-                 "for GTK+ 3.x support"
+                 "for GTK+ 3.x support" y
 
-optional_depends gtk+-2 "" "" "for GTK+ 2.x support"
+optional_depends gtk+-2 "" "" "for GTK+ 2.x support" n
 optional_depends unzip  "" "" "for ZIP archive support"
 optional_depends p7zip  "" "" "for 7z archive support"
 optional_depends cpio   "" "" "for RPM archive support"
