@@ -1,16 +1,19 @@
           MODULE=xarchiver
-         VERSION=0.5.4
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha256:e63fa73979fcc56efe8cca9095fd915d31a1714ce9676246b8626f164e452ef4
+         VERSION=0.5.4.7
+          SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
+      SOURCE_URL=http://github.com/ib/xarchiver/archive/
+     SOURCE2_URL=$PATCH_URL
+     SOURCE3_URL=$PATCH_URL
+      SOURCE_VFY=sha256:124eeccd819419c3d8f2935a78a3ad0ad47174bf7ef641441341e3aa32ea8f11
         WEB_SITE=http://xarchiver.sourceforge.net
          ENTERED=20060407
-         UPDATED=20141003
+         UPDATED=20160723
            SHORT="A simple archive manager"
 
 cat << EOF
 Xarchiver is a GTK+-2 frontend to 7z, zip, rar, tar, bzip2, gzip,
-arj, lha, rpm, and deb (open and extract only).  Xarchiver allows
+arj, lha, rpm, and deb (open and extract only). Xarchiver allows
 you to create, add, extract, and delete files in the above formats.
 7z, zip, rar, arj password protected archives are supported too.
 EOF

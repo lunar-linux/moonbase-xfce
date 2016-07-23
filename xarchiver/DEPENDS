@@ -1,1 +1,17 @@
-depends  gtk+-2
+depends intltool
+
+optional_depends gtk+-3 \
+                 "--enable-gtk3" \
+                 "--disable-gtk3" \
+                 "for GTK+ 3.x support"
+
+optional_depends gtk+-2 "" "" "for GTK+ 2.x support"
+optional_depends unzip  "" "" "for ZIP archive support"
+optional_depends p7zip  "" "" "for 7z archive support"
+optional_depends cpio   "" "" "for RPM archive support"
+optional_depends unrar  "" "" "for RAR archive support"
+
+optional_depends xmlto \
+                 "" "--disable-doc" \
+                 "for documantation install"
+
