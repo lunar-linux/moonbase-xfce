@@ -1,12 +1,12 @@
           MODULE=xfce4-dict
-         VERSION=0.7.1
+         VERSION=0.8.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:d15611e75a5e9c51167f2101cb760505ff72c446ef15542183b5e0fbf9c540fc
+      SOURCE_VFY=sha256:3a2fa72a3fe1816e16a50327fac1926bb0167a905c9b1e313a2bf5e3163ea32a
         WEB_SITE=http://goodies.xfce.org/projects/applications/xfce4-dict/
          ENTERED=20061124
-         UPDATED=20150319
-           SHORT="query a dictionary server for translation or explanation"
+         UPDATED=20170627
+           SHORT="Query a dictionary server for translation or explanation"
 
 cat << EOF
 With this plugin you can query a dictionary server(see RFC 2229) to

@@ -1,10 +1,13 @@
 depends exo
-depends xfconf
 depends garcon
 depends dbus-glib
 depends libXi
 depends libXrandr
 depends libnotify
+depends intltool
+depends xfconf
+depends libxfce4ui
 
-optional_depends libxklavier "" "" "Libxklavier support"
-optional_depends libXcursor "" "" "Xcursor support"
+optional_depends libxklavier "" "" "for Libxklavier support"
+optional_depends libXcursor  "" "" "for Xcursor support"
+optional_depends libcanberra "" "" "for sound control"
