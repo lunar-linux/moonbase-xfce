@@ -1,11 +1,10 @@
-depends garcon
 depends dbus-glib
+depends garcon
 depends exo
-depends libwnck
 depends libxfce4ui
 depends xfconf
 
-optional_depends gtk+-3 \
+optional_depends libwnck3 \
                  "--enable-gtk3" \
                  "--disable-gtk3" \
                  "for GTK 3.x support"
