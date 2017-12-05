@@ -1,0 +1,17 @@
+depends pulseaudio
+depends keybinder
+depends xfce4-panel
+depends intltool
+
+optional_depends libnotify4 \
+                 "--enable-libnotify" \
+                 "--disable-libnotify" \
+                 "for default pulse audio mixer support"
+
+optional_depends keybinder \
+                 "--enable-keybinder" \
+                 "--disable-keybinder" \
+                 "for keybinder support"
+
+optional_depends ido         "" "" "for widget indicator support"
+optional_depends pavucontrol "" "" "for default pulse audio mixer support"
