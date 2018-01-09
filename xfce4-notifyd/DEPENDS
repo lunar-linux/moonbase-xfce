@@ -1,4 +1,4 @@
 depends hicolor-icon-theme
 depends libxfce4ui
-depends libnotify4
+depends libnotify
 depends intltool
