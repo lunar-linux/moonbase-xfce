@@ -1,4 +1,4 @@
 depends libical
 depends libxfcegui4
 
-optional_depends libnotify4 "--enable-libnotify" "--disable-libnotify" "notification support"
+optional_depends libnotify "--enable-libnotify" "--disable-libnotify" "notification support"
