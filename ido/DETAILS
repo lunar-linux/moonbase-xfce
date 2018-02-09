@@ -1,0 +1,14 @@
+          MODULE=ido
+         VERSION=12.10.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://launchpad.net/$MODULE/${VERSION%.*}/${VERSION}/+download/
+#SOURCE_DIRECTORY=$BUILD_DIRECTORY/
+      SOURCE_VFY=sha256:e2279c7c0eeeb2e038eaf87418df109327de28c758f45e72e19c7154a1f71f00
+        WEB_SITE=http://launchpad.net/ido/
+         ENTERED=20151101
+         UPDATED=20151101
+           SHORT="Widgets and other objects used for indicators"
+
+cat << EOF
+Widgets and other objects used for indicators.
+EOF
