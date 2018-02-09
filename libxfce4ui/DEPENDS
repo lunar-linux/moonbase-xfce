@@ -1,15 +1,24 @@
-depends  gtk+-2
+depends libSM
+depends hicolor-icon-theme
+depends startup-notification
+depends intltool
 
 # libxfce4ui-2 requires GTK3
-depends  gtk+-3
+depends gtk+-3
 
-depends  libxml2
-depends  libxfce4util
-depends  xfconf
+depends libxml2
+depends libxfce4util
+depends xfconf
 
-optional_depends  libglade             "" "" "Glade Interface Designer"
-optional_depends  startup-notification "" "" "Startup notification"
+optional_depends gtk+-2               "" "" "GTK+-2 is optional"
+optional_depends libglade             "" "" "Glade Interface Designer"
+optional_depends startup-notification "" "" "Startup notification"
 
 # not real depends, but we really want them
-depends  gtk-xfce-engine
-depends  xfce4-icon-theme
+depends gtk-xfce-engine
+depends xfce4-icon-theme
+
+optional_depends gtk-doc \
+                 "--enable-gtk-doc" \
+                 "--disable-gtk-doc" \
+                 "for building documentation"
