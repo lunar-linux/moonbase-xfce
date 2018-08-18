@@ -1,5 +1,4 @@
 depends URI
-depends gtk+-2
 depends libxfce4ui
 depends intltool
 
