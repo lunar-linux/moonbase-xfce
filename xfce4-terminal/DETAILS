@@ -1,18 +1,17 @@
           MODULE=xfce4-terminal
-         VERSION=0.6.3
+         VERSION=0.8.7.4
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
-      SOURCE_VFY=sha1:4dd4d2bef8101f563487b0230346070930ff689f
+      SOURCE_VFY=sha256:a88f98af4da72394f2cfbd7f14b0f053ec0a3b58a4f6a577836357c60a6c42ab
         WEB_SITE=http://www.xfce.org/projects/terminal
          ENTERED=20040930
-         UPDATED=20131227
+         UPDATED=20180515
            SHORT="vte-based gtk+-2 lightweight X-terminal"
 
 cat << EOF
-xfce4-terminal is a modern terminal emulator for the Unix/Linux desktop -
-primarily for the Xfce desktop environment. We developed it because
-we saw the need for a lightweight and easy-to-use terminal emulator
-in the Xfce desktop environment, that doesn't require the user to
-install the GNOME platform, but still provides a worthy alternative
-to the GNOME terminal emulator.
+xfce4-terminal is a modern terminal emulator for the Unix/Linux desktop,
+primarily for the Xfce desktop environment. We developed it because we saw the
+need for a lightweight and easy-to-use terminal emulator in the Xfce desktop
+environment, that doesn't require the user to install the GNOME platform, bu
+still provides a worthy alternative to the GNOME terminal emulator.
 EOF
