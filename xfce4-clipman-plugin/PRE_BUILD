@@ -1,0 +1,4 @@
+default_pre_build
+
+sedit 's;exo-0.3;exo-1;' configure.ac
+

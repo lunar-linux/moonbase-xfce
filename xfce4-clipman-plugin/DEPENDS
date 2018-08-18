@@ -1,3 +1,6 @@
 depends libunique
 depends xfce4-panel
 depends libXtst
+depends intltool
+
+optional_depends qrencode "" "" "for QR Code symbol support"
