@@ -1,6 +1,6 @@
 --- ./panel/panel-window.c
 +++ ./panel/panel-window.c
-@@ -2104,18 +2104,18 @@ panel_window_screen_layout_changed (GdkScreen   *screen,
+@@ -2112,18 +2112,18 @@ panel_window_screen_layout_changed (GdkScreen   *screen,
                || (window->struts_edge == STRUTS_EDGE_RIGHT
                    && b.x + b.width > a.x + a.width))
              {
