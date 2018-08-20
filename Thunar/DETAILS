@@ -1,4 +1,4 @@
-          ODULE=Thunar
+          MODULE=Thunar
          VERSION=1.8.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/thunar/${VERSION%.*}
