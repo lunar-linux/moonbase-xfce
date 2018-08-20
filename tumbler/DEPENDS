@@ -2,7 +2,7 @@ depends dbus-glib
 depends gdk-pixbuf
 depends freetype2
 
-optional_depends "gstreamer-10" ""  ""  "for video thumbnails"
-optional_depends "libgsf"       ""  ""  "for ODF thumbnails"
-optional_depends "poppler"      ""  ""  "for PDF thumbnails"
+optional_depends "gstreamer" ""  ""  "for video thumbnails"
+optional_depends "libgsf"    ""  ""  "for ODF thumbnails"
+optional_depends "poppler"   ""  ""  "for PDF thumbnails"
 
