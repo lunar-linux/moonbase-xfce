@@ -1,4 +1,3 @@
-depends gstreamer-10
 depends libxfce4ui
 depends libxfce4util
 depends dbus-glib
