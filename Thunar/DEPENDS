@@ -2,7 +2,6 @@ depends exo
 depends libpng
 depends shared-mime-info
 depends desktop-file-utils
-depends xfce4-panel
 
 optional_depends libgudev \
                  "--enable-gudev" \
