@@ -1,15 +1,15 @@
           MODULE=xfce4-dict
-         VERSION=0.8.0
+         VERSION=0.8.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:3a2fa72a3fe1816e16a50327fac1926bb0167a905c9b1e313a2bf5e3163ea32a
+      SOURCE_VFY=sha256:5e49e8412fb61265c1be785f3e4dd9e4865f3819dbae56caa04ddbac65b9e66f
         WEB_SITE=http://goodies.xfce.org/projects/applications/xfce4-dict/
          ENTERED=20061124
-         UPDATED=20170627
+         UPDATED=20180603
            SHORT="Query a dictionary server for translation or explanation"
 
 cat << EOF
-With this plugin you can query a dictionary server(see RFC 2229) to
-search for the translation or explanation of a word. You can also
-choose a dictionary offered by the server to improve your search results
+With this plugin you can query a dictionary server(see RFC 2229) to search for
+the translation or explanation of a word. You can also choose a dictionary
+offered by the server to improve your search results.
 EOF
