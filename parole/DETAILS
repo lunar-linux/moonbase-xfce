@@ -1,15 +1,15 @@
           MODULE=parole
-         VERSION=0.8.1
+         VERSION=1.0.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:4b216f5200490f8d2a9bf1b3fcd9a8b20834c95249bf13b9170c82e1fcbd80f4
+      SOURCE_VFY=sha256:8ad2931fdb35415cc3d7551b5f2207bfaa1aba15545accbacbb4984cdabd7099
         WEB_SITE=http://goodies.xfce.org/projects/applications/$MODULE
          ENTERED=20110329
-         UPDATED=20151018
+         UPDATED=20180816
            SHORT="media player for the Xfce desktop"
 
 cat << EOF
-Parole is a modern simple media player based on the GStreamer framework
-and written to fit well in the Xfce desktop. Parole is designed with
-simplicity, speed and resource usage in mind.
+Parole is a modern simple media player based on the GStreamer framework and
+written to fit well in the Xfce desktop. Parole is designed with simplicity,
+speed and resource usage in mind.
 EOF
