@@ -8,6 +8,12 @@ optional_depends libgudev \
                  "--disable-gudev" \
                  "enable gudev support (required by thunar-volman)"
 
-optional_depends gvfs    "" "" "enable trash support and mounting remote filesystems" 
+optional_depends gobject-introspection \
+                 "--enable-introspection" \
+                 "--disable-introspection" \
+                 "enable gobject introspection support"
+
+optional_depends gvfs    "" "" "enable trash support and mounting remote filesystems"
 optional_depends libexif "" "" "enable Exif support"
 optional_depends xfconf  "" "" "enable Xfconf support"
+optional_depends tumbler "" "" "enable thumbnail previews"
