@@ -1,11 +1,11 @@
           MODULE=xfce4-session
-         VERSION=4.12.1
+         VERSION=4.13.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:97d7f2a2d0af7f3623b68d1f04091e02913b28f9555dab8b0d26c8a1299d08fd
+      SOURCE_VFY=sha256:c789f0f8234e06f5266f0c6ccdbdcc3c085e8d9eea06a0eafe8f7cfc4fe23af4
         WEB_SITE=http://www.xfce.org/projects/xfce4-session
          ENTERED=20030715
-         UPDATED=20150319
+         UPDATED=20181207
            PSAFE=no
            SHORT="Session manager for Xfce4"
 
