@@ -2,7 +2,8 @@ depends dbus-glib
 depends libxfce4util
 depends intltool
 
-optional_depends gtk-doc \
-                 "--enable-gtk-doc" \
-                 "--disable-gtk-doc" \
-                 "for building documentation"
+# broken
+#optional_depends gtk-doc \
+#                 "--enable-gtk-doc" \
+#                 "--disable-gtk-doc" \
+#                 "for building documentation"
