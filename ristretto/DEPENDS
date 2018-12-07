@@ -3,3 +3,4 @@ depends libxfce4ui
 depends libexif
 depends dbus-glib
 
+optional_depends tumbler "" "" "for thumbnailing support"
