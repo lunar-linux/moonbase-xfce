@@ -1,11 +1,11 @@
           MODULE=xfce4-diskperf-plugin
-         VERSION=2.5.5
+         VERSION=2.6.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:cbeb0c00f97362eef3f135afb77947aef73e938bae0386250a122ac6644b521b
+      SOURCE_VFY=sha256:212ddc742be3eecb6ad5554e1b1df03d5685cb71f48a558d5f895de37c57e4fa
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20150309
+         UPDATED=20180819
            SHORT="A disk/partition performance monitor"
 
 cat << EOF
