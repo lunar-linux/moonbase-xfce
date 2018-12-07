@@ -1,11 +1,11 @@
           MODULE=exo
-         VERSION=0.12.2
+         VERSION=0.12.3
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:6d4b0a88c1e1d3d5ed612cbf012c7511ef67b1636f4f85caa9dc68649b7e6350
+      SOURCE_VFY=sha256:b96fe86bb504aa9b3332b96105d755f5d9052c903fd6574b512a5ef76c0ad439
         WEB_SITE=http://www.os-cillation.de/en/open-source-projekte/libexo
          ENTERED=20040930
-         UPDATED=20180816
+         UPDATED=20181016
            SHORT="The Xfce extension library"
 
 cat << EOF
