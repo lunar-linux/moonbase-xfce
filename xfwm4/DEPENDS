@@ -1,4 +1,4 @@
-depends libwnck
+depends libwnck3
 depends libxfcegui4
 depends libxfce4ui
 depends xfconf
