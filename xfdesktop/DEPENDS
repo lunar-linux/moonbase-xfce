@@ -1,8 +1,12 @@
-depends xfconf
-depends dbus-glib
 depends exo
 depends garcon
-depends libnotify
-depends libwnck
+depends hicolor-icon-theme
+depends libwnck3
+depends libxfce4ui
 
-optional_depends Thunar "" "" "for desktop file icon support"
+optional_depends Thunar \
+                 "--enable-desktop-icons --enable-thunarx" \
+		 "--disable-desktop-icons --disable-thunarx" \
+		 "for desktop icons support"
+
+optional_depends libnotify "--enable-notifications" "--disable-notifications" "for notification"

@@ -6,5 +6,5 @@ depends xfdesktop
 depends xfce4-session
 depends xfce4-icon-theme
 
-optional_depends Thunar     "" "" "For the new xfce4 filemanager"
-optional_depends xfce4-terminal   "" "" "For the new xfce4 xterm"
+optional_depends Thunar "" "" "For the new xfce4 filemanager"
+optional_depends xfce4-terminal "" "" "For the new xfce4 xterm"

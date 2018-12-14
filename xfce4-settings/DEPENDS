@@ -1,13 +1,28 @@
 depends exo
 depends garcon
 depends dbus-glib
-depends libXi
-depends libXrandr
 depends libnotify
+depends libxfce4ui
 depends intltool
 depends xfconf
-depends libxfce4ui
+depends xf86-input-libinput
 
-optional_depends libxklavier "" "" "for Libxklavier support"
-optional_depends libXcursor  "" "" "for Xcursor support"
-optional_depends libcanberra "" "" "for sound control"
+optional_depends upower \
+                 "--enable-upower-glib" \
+		 "--disable-upower-glib" \
+		 "For UPower support"
+
+optional_depends libxklavier \
+                 "--enable-libxklavier" \
+		 "--disable-libxklavier" \
+		 "For Libxklavier support"
+
+optional_depends libXcursor \
+                 "--enable-xcursor" \
+		 "--disable-xcursor" \
+		 "For Xcursor support"
+
+optional_depends libcanberra \
+                 "--enable-sound-settings" \
+		 "--disable-sound-settings" \
+		 "For sound control"

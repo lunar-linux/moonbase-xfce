@@ -1,0 +1,1 @@
+mquery DESTKOPMENU "Enable support for desktop menu?" y "--enable-desktop-menu" "--disable-desktop-menu"

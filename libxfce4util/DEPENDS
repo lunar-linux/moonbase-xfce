@@ -1,1 +1,11 @@
 depends  glib-2
+
+optional_depends vala \
+                 "--enable-vala" \
+		 "--disable-vala" \
+		 "For Vala support"
+
+optional_depends gobject-introspection \
+                 "--enable-introspection" \
+		 "--disable-introspection" \
+		 "For GObject instrospection support"
