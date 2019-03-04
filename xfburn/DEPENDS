@@ -3,7 +3,7 @@ depends libisofs
 depends exo
 depends desktop-file-utils
 
-optional_depends gst-plugins-base-1.0 "" "" "for gstreamer support"
+optional_depends gst-plugins-base "" "" "for gstreamer support"
 
 optional_depends libgudev \
                  "--enable-gudev" \
