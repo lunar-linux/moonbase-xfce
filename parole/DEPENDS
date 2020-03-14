@@ -1,11 +1,16 @@
-depends gstreamer-10
-depends libxfce4ui
-depends libxfce4util
-depends libxfcegui4
 depends dbus-glib
-depends glib-2
-depends gtk+-2
 depends gst-plugins-base
+depends gst-plugins-good
+depends libxfce4ui
+depends intltool
 
-optional_depends libnotify "--enable-notify-plugin" "--disable-notify-plugin" "for the notification plugin"
-optional_depends taglib    "--enable-taglib" "--disable-taglib" "for taglib support"
+optional_depends libnotify \
+                 "--enable-notify-plugin" \
+                 "--disable-notify-plugin" \
+                 "for the notification plugin" \
+                 "y"
+
+optional_depends taglib \
+                 "--enable-taglib" \
+                 "--disable-taglib" \
+                 "for taglib support"
