@@ -3,10 +3,10 @@
          VERSION=$MAJOR.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/art/xfwm4-themes/$MAJOR
-      SOURCE_VFY=sha1:6608cd2e615e0e058f25ccf2868f903b35b2115f
+      SOURCE_VFY=sha256:3214d5f00e9703b5e8c9e7c3287d606dedec7285ceb4d5db332e93ada66fd575
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20120429
+         UPDATED=20200314
            SHORT="Window decoration themes for Xfce4"
 
 cat << EOF
