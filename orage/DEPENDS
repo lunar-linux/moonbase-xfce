@@ -1,4 +1,10 @@
+depends gtk+-2
+depends popt
 depends libical
-depends libxfcegui4
+depends xfce4-panel
 
-optional_depends libnotify "--enable-libnotify" "--disable-libnotify" "notification support"
+optional_depends libnotify \
+                 "--enable-libnotify" \
+                 "--disable-libnotify" \
+                 "notification support" \
+                 "y"
