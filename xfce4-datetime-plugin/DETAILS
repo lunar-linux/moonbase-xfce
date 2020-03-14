@@ -1,11 +1,11 @@
           MODULE=xfce4-datetime-plugin
-         VERSION=0.6.2
+         VERSION=0.8.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:5a7e665fcfd06859c45e14b7063d719b5b26885f
+      SOURCE_VFY=sha256:cd358bc2ff0707b8ef1504396a19b0a27f802c2ec7bceb5cebe2c7baf6adebd4
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-datetime-plugin
          ENTERED=20061124
-         UPDATED=20130217
+         UPDATED=20200314
            SHORT="date and time in the panel"
 
 cat << EOF
