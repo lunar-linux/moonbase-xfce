@@ -1,3 +1,3 @@
-OPTS+=" --disable-static --disable-debug" &&
+OPTS+=" --disable-static --disable-debug"
 
 default_build
