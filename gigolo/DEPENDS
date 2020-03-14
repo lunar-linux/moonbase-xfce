@@ -1,4 +1,2 @@
 depends gvfs
-
-# For the waf build system
-depends python2
+depends intltool
