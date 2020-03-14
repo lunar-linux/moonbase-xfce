@@ -7,4 +7,5 @@ depends intltool
 optional_depends  dbus-glib \
                   "--enable-dbus" \
                   "--disable-dbus" \
-                  "For DBUS support"
+                  "For DBUS support" \
+                  "y"

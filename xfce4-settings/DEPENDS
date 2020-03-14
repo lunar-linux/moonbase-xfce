@@ -48,5 +48,3 @@ optional_depends colord \
                  "--disable-colord" \
                  "for colord support" \
                  "n"
-
-
