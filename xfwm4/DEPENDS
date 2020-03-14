@@ -1,5 +1,18 @@
-depends libwnck
-depends libxfcegui4
+depends libwnck3
 depends libxfce4ui
+depends libxpresent
 depends xfconf
-depends startup-notification
+depends hicolor-icon-theme
+
+optional_depends libepoxy \
+                 "--enable-epoxy" \
+                 "--disable-epoxy" \
+                 "for checking OpenGL handling" \
+                 "n"
+
+optional_depends startup-notification \
+                 "--enable-startup-notification" \
+                 "--disable-startup-notification" \
+                 "for startup notification support"
+
+
