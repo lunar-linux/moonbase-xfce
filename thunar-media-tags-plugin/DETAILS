@@ -1,12 +1,12 @@
           MODULE=thunar-media-tags-plugin
-         VERSION=0.2.1
+         VERSION=0.3.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/thunar-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:056d012a10403ee3e2e55b6ff2faecb796821de9ebee000315589b95d95ed253
+      SOURCE_VFY=sha256:e265c4415abac40337cc5566c6f706efcf0be4e97723abe22ba8b874c93a591b
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20150309
-           SHORT="audio tagger plugin for Thunar"
+         UPDATED=20200314
+           SHORT="Audio tagger plugin for Thunar"
 
 cat << EOF
 The Thunar Media Tags Plugin (thunar-media-tags-plugin) adds special
