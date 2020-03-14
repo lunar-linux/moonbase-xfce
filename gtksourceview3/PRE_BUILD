@@ -1,0 +1,6 @@
+default_pre_build &&
+
+cd gtksourceview &&
+
+# Workaround incompat with recent autoconf-archive
+find . -name Makefile.am -exec sed -i '/@CODE_COVERAGE_RULES@/d' {} +
