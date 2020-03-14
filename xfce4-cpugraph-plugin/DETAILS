@@ -1,11 +1,11 @@
           MODULE=xfce4-cpugraph-plugin
-         VERSION=1.0.5
+         VERSION=1.1.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:85da0ec89aacfd31e0bbafcefea37cdca618d62e681c1c9da8bdd492f028f4c7
+      SOURCE_VFY=sha256:3ece0a24e55827e0d9b6314129906da60513acdc1748d9dece9f50526e906ba4
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20150309
+         UPDATED=20200314
            SHORT="CPU graph plugin for the Xfce4 panel"
 
 cat << EOF
