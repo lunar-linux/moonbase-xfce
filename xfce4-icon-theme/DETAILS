@@ -2,10 +2,10 @@
          VERSION=4.4.3
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/art/xfce4-icon-theme/4.4
-      SOURCE_VFY=sha1:0c0d0c45cd4a7f609310db8e9d17c1c4a131a6e7
+      SOURCE_VFY=sha256:d4786692d56b8a563f66a5f260f1f13ade11e86c78cbcb25a9f9a5fc47cf66fa
         WEB_SITE=http://www.xfce.org
          ENTERED=20041003
-         UPDATED=20081030
+         UPDATED=20200314
            SHORT="Icon theme for Xfce4"
 
 cat << EOF
