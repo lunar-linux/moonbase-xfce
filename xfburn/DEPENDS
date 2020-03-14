@@ -1,9 +1,13 @@
+depends gtk+-3
 depends libburn
 depends libisofs
 depends exo
 depends desktop-file-utils
 
-optional_depends gst-plugins-base "" "" "for gstreamer support"
+optional_depends gst-plugins-base \
+                "--enable-gstreamer" \
+                "--disable-gstreamer" \
+               "for gstreamer support"
 
 optional_depends libgudev \
                  "--enable-gudev" \
