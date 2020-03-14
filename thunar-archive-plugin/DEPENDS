@@ -1,1 +1,3 @@
-depends Thunar
+depends thunar
+
+optional_depends xarchiver "" "" "for extended archives support (needs GTK 2.x)" "n"

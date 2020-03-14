@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:bf82fa86a388124eb3c4854249c30712b2922e61789607268ee14548549b3115
         WEB_SITE=http://foo-projects.org/~benny/projects/thunar-archive-plugin/index.html
          ENTERED=20070123
-         UPDATED=20180816
+         UPDATED=20200314
            SHORT="create archives in Thunar"
 
 cat << EOF
