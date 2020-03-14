@@ -10,6 +10,6 @@
 
 cat << EOF
 Squeeze is a modern and advanced archive manager for the Xfce
-Desktop Environment.  Its design adheres to the Xfce philosophy,
+Desktop Environment. Its design adheres to the Xfce philosophy,
 which basically means Squeeze is both fast and easy to use.
 EOF
