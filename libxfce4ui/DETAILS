@@ -1,14 +1,14 @@
           MODULE=libxfce4ui
-         VERSION=4.12.1
+         VERSION=4.14.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:ef687867bd087b5fc2befee0e8ca1a281f6bf165
+      SOURCE_VFY=sha256:c449075eaeae4d1138d22eeed3d2ad7032b87fb8878eada9b770325bed87f2da
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20150417
+         UPDATED=20200314
            SHORT="Widget library for Xfce4"
 
 cat << EOF
-libxfce4ui -- Library that provides extra widgets and graphical user
-interface functions to the Xfce4 desktop environment.
+libxfce4ui -- Library that provides extra widgets and graphical useri interface
+functions to the Xfce4 desktop environment.
 EOF
