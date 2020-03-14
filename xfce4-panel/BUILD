@@ -1,4 +1,5 @@
 OPTS+=" --disable-static \
-        --disable-debug"
+        --disable-debug \
+        --enable-gio-unix"
 
 default_build

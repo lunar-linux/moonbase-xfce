@@ -3,6 +3,7 @@ depends garcon
 depends libwnck3
 depends libxfce4ui
 depends xfconf
+depends vala
 depends hicolor-icon-theme
 depends desktop-file-utils
 
