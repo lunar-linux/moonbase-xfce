@@ -1,8 +1,16 @@
-depends xfconf
-depends dbus-glib
 depends exo
 depends garcon
 depends libnotify
-depends libwnck
+depends libwnck3
 
-optional_depends Thunar "" "" "for desktop file icon support"
+optional_depends libnotify \
+                 "--enable-notifications" \
+                 "--disable-notifications" \
+                 "for notifications support" \
+                 "y"
+
+optional_depends thunar \
+                 "--enable-thunarx" \
+                 "--disable-thunarx" \
+                 "for desktop file icon support" \
+                 "y"
