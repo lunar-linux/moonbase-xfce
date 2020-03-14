@@ -1,3 +1,0 @@
-depends xfce4-panel
-depends gst-plugins-base
-depends libunique
