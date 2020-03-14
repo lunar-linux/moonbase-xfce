@@ -1,4 +1,3 @@
-depends gtk-xfce-engine
 depends xfwm4
 depends xfce4-settings
 depends xfce4-panel
