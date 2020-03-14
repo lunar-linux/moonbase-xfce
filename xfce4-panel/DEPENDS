@@ -13,11 +13,12 @@ optional_depends gtk-doc \
                  "for building documentation" \
                  "n"
 
-optional_depends gobject-introspection \
-                 "--enable-introspection=yes" \
-                 "--enable-introspection=no" \
-                 "for object introspection" \
-                 "y"
+# it breaks the build
+#optional_depends gobject-introspection \
+#                 "--enable-introspection=yes" \
+#                 "--enable-introspection=no" \
+#                 "for object introspection" \
+#                 "y"
 
 optional_depends gtk+-2 \
                  "--enable-gtk2" \
