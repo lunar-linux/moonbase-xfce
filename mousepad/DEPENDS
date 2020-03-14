@@ -1,3 +1,4 @@
-depends dbus-glib
+depends xfconf
+depends gtksourceview3
 depends desktop-file-utils
-depends gtksourceview
+depends intltool
