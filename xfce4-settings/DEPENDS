@@ -1,13 +1,52 @@
+depends dbus-glib
 depends exo
 depends garcon
-depends dbus-glib
 depends libXi
-depends libXrandr
-depends libnotify
-depends intltool
 depends xfconf
 depends libxfce4ui
+depends intltool
 
-optional_depends libxklavier "" "" "for Libxklavier support"
-optional_depends libXcursor  "" "" "for Xcursor support"
-optional_depends libcanberra "" "" "for sound control"
+optional_depends libXrandr \
+                 "--enable-xrandr" \
+                 "--disable-xrandr" \
+                 "for X render support" \
+                 "y"
+
+optional_depends libnotify \
+                 "--enable-libnotify" \
+                 "--disable-libnotify" \
+                 "for notification support" \
+                 "y"
+
+optional_depends libinput \
+                 "--enable-xorg-libinput" \
+                 "--disable-xorg-libinput" \
+                 "for X libinput driver support" \
+                 "y"
+
+
+optional_depends libxklavier \
+                 "--enable-libxklavier" \
+                 "--disable-libxklavier" \
+                 "for keyboard layout selection support" \
+                 "y"
+
+optional_depends libXcursor \
+                 "--enable-xcursor" \
+                 "--disable-xcursor" \
+                 "for X cursor support" \
+                 "y"
+
+optional_depends libcanberra \
+                 "--enable-sound-settings" \
+                 "--disable-sound-settings" \
+                 "for sound control" \
+                 "y"
+
+optional_depends colord \
+                 "--enable-colord" \
+                 "--disable-colord" \
+                 "for colord support" \
+                 "n"
+
+
