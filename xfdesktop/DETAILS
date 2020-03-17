@@ -1,7 +1,7 @@
           MODULE=xfdesktop
          VERSION=4.14.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:a30534461fea907f969f608a11c84be0b1aaad687c591c32cd56a9d274ea3e74
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715

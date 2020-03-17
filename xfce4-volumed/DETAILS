@@ -2,7 +2,7 @@
            MAJOR=0.1
          VERSION=$MAJOR.13
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/$MAJOR/
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/$MAJOR/
       SOURCE_VFY=sha1:0f9668e706f611f502d3d227fca8ac4e5f0ce8ba
         WEB_SITE=http://www.xfce.org
          ENTERED=20110322

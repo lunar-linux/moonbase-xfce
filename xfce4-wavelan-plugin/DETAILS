@@ -1,7 +1,7 @@
           MODULE=xfce4-wavelan-plugin
          VERSION=0.5.12
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:67dce45739f063b95e2bc2232c625277685887b1f84088316d919671b5500ac4
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124

@@ -1,11 +1,11 @@
           MODULE=xfce4-verve-plugin
-         VERSION=1.1.0
+         VERSION=2.0.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:a3196f818c7ad57d19cd6581e168fd2b9f96de070246aea70c35ce2e5f9d9c84
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:9e6510ba6c48fcfc60d1c6ab14613dd7b6ff095cabbf4746f82bf788d8ab4cd2
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/verve-plugin
          ENTERED=20061124
-         UPDATED=20150713
+         UPDATED=20200317
            SHORT="Command line plugin for the Xfce panel"
 
 cat << EOF

@@ -1,7 +1,7 @@
           MODULE=xfce4-weather-plugin
          VERSION=0.8.9
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:0e15d14b3e18c3da46ad23ee3158a25220f1474a48b611de96edb56221aecee5
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-weather-plugin
          ENTERED=20061124
