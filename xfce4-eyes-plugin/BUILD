@@ -1,5 +1,4 @@
 OPTS+=" --disable-static \
-        --disable-debug \
-        --enable-ical"
+        --disable-debug"
 
 default_build
