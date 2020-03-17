@@ -1,11 +1,11 @@
           MODULE=xfce4-mpc-plugin
-         VERSION=0.4.5
+         VERSION=0.5.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:e71f57a28915c57459d6ce0eeeee1d0934f523c0ed083158c3d3b3836fc06fcf
+      SOURCE_VFY=sha256:eefe78b7b6b95312b3a52814b7f632dc92970c1b3e9535de616315749bf67760
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20150309
+         UPDATED=20200317
            SHORT="A simple client Xfce plugin for Music Player Daemon"
 
 cat << EOF
