@@ -1,5 +1,10 @@
 depends xfce4-panel
-
+depends libxml2
 depends libsoup
+depends hicolor-icon-theme
 
-optional_depends upower "--enable-upower" "--disable-upower" "for adapting update interval to power state"
+optional_depends upower \
+                 "--enable-upower" \
+                 "--disable-upower" \
+                 "for adapting update interval to power state" \
+                 "n"
