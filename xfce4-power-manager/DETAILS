@@ -1,11 +1,11 @@
           MODULE=xfce4-power-manager
-         VERSION=1.4.4
+         VERSION=1.6.6
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:c50ec8aa7e7848c57c0f856dceb8132eb5f37585f0ac1627459ab8c882c73b07
+      SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:1b7bf0d3e8af69b10f7b6a518451e01fc7888e0d9d360bc33f6c89179bb6080b
         WEB_SITE=http://www.xfce.org
          ENTERED=20090307
-         UPDATED=20150323
+         UPDATED=20200317
            SHORT="A power manager Xfce"
 
 cat << EOF
