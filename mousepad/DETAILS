@@ -1,7 +1,7 @@
           MODULE=mousepad
          VERSION=0.4.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
       SOURCE_VFY=sha256:84c02adfca7f8b33b9466a306ded72fb9f38f93c9edb78660343854c4a3aded7
         WEB_SITE=http://erikharrison.net
          ENTERED=20050218

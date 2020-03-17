@@ -1,7 +1,7 @@
           MODULE=xfce4-genmon-plugin
           VERSION=4.0.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/xfce4-genmon-plugin/${VERSION%.*}/
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/xfce4-genmon-plugin/${VERSION%.*}/
       SOURCE_VFY=sha256:256c22526f61aabf43b91b903b976c13e56198657667df443cdb06b31fbf23aa
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin
          ENTERED=20061124

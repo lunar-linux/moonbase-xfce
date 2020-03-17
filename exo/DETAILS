@@ -1,7 +1,7 @@
           MODULE=exo
          VERSION=0.12.11
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:ec892519c08a67f3e0a1f0f8d43446e26871183e5aa6be7f82e214f388d1e5b6
         WEB_SITE=https://www.xfce.org/
          ENTERED=20040930

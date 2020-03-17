@@ -1,7 +1,7 @@
           MODULE=xfce4-dict
          VERSION=0.8.3
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:7cf4ce77f9e95ca04894b8eaa385ca52c080e28ec1e1846355b1b67a800dc279
         WEB_SITE=http://goodies.xfce.org/projects/applications/xfce4-dict/
          ENTERED=20061124

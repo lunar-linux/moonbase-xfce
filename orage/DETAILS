@@ -1,7 +1,7 @@
           MODULE=orage
          VERSION=4.12.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:3cf9aa441ae83c8688865f82217025cdf3ebaa152cce4571777b8c2aa8dd9062
         WEB_SITE=http://www.xfce.org/projects/orage
          ENTERED=20031222

@@ -1,7 +1,7 @@
           MODULE=xfce4-battery-plugin
          VERSION=1.1.3
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:12be0a44d16bd1e1618513ee64f946814925872db7d1c1188ab1454b00d040a3
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-battery-plugin
          ENTERED=20061124

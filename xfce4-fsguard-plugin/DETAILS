@@ -1,7 +1,7 @@
           MODULE=xfce4-fsguard-plugin
          VERSION=1.1.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:d6d05d0a90a68453d65cdceec5ca7eeaef864393ab62eef532a7ba58f374d516
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124

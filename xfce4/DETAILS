@@ -1,7 +1,7 @@
           MODULE=xfce4
          VERSION=4.12.0
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/${MODULE}
-        WEB_SITE=http://www.xfce.org
+        WEB_SITE=https://www.xfce.org
       MAINTAINER=jasper@lunar-linux.org
          ENTERED=20030715
          UPDATED=20200314

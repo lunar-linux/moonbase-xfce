@@ -1,7 +1,7 @@
           MODULE=xfce4-panel
          VERSION=4.14.3
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:ef22324d26e5af735134bb10f85b6e16525ac9f48be8d2f6b634142fbfcabbc9
         WEB_SITE=http://www.xfce.org/projects/xfce4-panel
          ENTERED=20030715

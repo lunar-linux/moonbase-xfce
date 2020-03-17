@@ -1,7 +1,7 @@
           MODULE=xfce4-dev-tools
          VERSION=4.14.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:2c9eb8e0fe23e47dc31411a93b683fd1b7a49140e9163f0aab9e94a3d8a0b5fd
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715

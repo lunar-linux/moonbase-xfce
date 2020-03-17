@@ -1,7 +1,7 @@
           MODULE=xfce4-notifyd
          VERSION=0.4.4
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:090571acf94c423003426cb779fb23e8545c68bab6485563b589c7def8a21b55
         WEB_SITE=http://goodies.xfce.org/projects/applications/xfce4-notifyd
          ENTERED=20110121

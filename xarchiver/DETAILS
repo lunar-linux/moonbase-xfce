@@ -1,7 +1,7 @@
           MODULE=xarchiver
          VERSION=0.5.4.14
           SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=http://github.com/ib/xarchiver/archive/$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/ib/xarchiver/archive/$VERSION.tar.gz
       SOURCE_VFY=sha256:335bed86e10a1428d54196edf5c828e79ceed05049e83896114aa46f0a950a2f
         WEB_SITE=http://xarchiver.sourceforge.net
          ENTERED=20060407

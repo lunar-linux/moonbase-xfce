@@ -1,7 +1,7 @@
           MODULE=xfce4-eyes-plugin
          VERSION=4.5.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:fdae00036383105a15d12e9809abd5945a8f2152b17e16ccdfbfe5bd9733f29d
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-eyes-plugin
          ENTERED=20061124

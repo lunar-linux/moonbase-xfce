@@ -1,7 +1,7 @@
           MODULE=thunar
          VERSION=1.8.12
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/xfce/thunar/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/xfce/thunar/${VERSION%.*}
       SOURCE_VFY=sha256:29295bee0b1f5bfd525e37405e5d32b497ae539b15183dd14e6ca49e252225f8
         WEB_SITE=http://thunar.xfce.org
          ENTERED=20060407

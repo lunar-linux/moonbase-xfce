@@ -1,7 +1,7 @@
           MODULE=xfce4-terminal
          VERSION=0.8.9.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
       SOURCE_VFY=sha256:0deb0d06e50a8a41fb00e2c3773f0793882cb9f073ae16ead887bb9681c514cd
         WEB_SITE=http://www.xfce.org/projects/terminal
          ENTERED=20040930

@@ -1,7 +1,7 @@
         MODULE=garcon
        VERSION=0.6.4
         SOURCE=$MODULE-$VERSION.tar.bz2
-    SOURCE_URL=http://archive.xfce.org/src/xfce/garcon/${VERSION%.*}
+    SOURCE_URL=https://archive.xfce.org/src/xfce/garcon/${VERSION%.*}
     SOURCE_VFY=sha256:d75e4753037a74733c07b71b8db7a656d869869f0f107f6411a306bbc87a762d
       WEB_SITE=http://www.xfce.org
        ENTERED=20110118

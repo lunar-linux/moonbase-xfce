@@ -1,7 +1,7 @@
           MODULE=xfce4-diskperf-plugin
          VERSION=2.6.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:fd2e9843da5822de96a7829e50ba496c34a50fb8492d5b5f792558c6b7ce9644
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124

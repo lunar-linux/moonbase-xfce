@@ -1,7 +1,7 @@
           MODULE=parole
          VERSION=1.0.5
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:1adb4bd96c4cc4b4a79eeafe1316e170f506426e3737e8ba8898f7ea6bec572a
         WEB_SITE=http://goodies.xfce.org/projects/applications/$MODULE
          ENTERED=20110329
