@@ -1,5 +1,5 @@
           MODULE=xfce4-pulseaudio-plugin
-         VERSION=0.3.3
+         VERSION=0.4.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:d6aae9409714c5ddea975c350b4d517e078a5550190165b17ca062d0eb69f9a6
