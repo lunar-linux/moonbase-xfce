@@ -1,6 +1,8 @@
 OPTS+=" --disable-static \
         --disable-debug \
         --disable-glade-catalog \
-        --disable-Werror"
+        --disable-Werror" &&
+
+autoreconf -i &&
 
 default_build
