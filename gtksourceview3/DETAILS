@@ -8,7 +8,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MOD-$VERSION
       SOURCE_VFY=sha256:691b074a37b2a307f7f48edc5b8c7afa7301709be56378ccf9cc9735909077fd
         WEB_SITE=http://www.gnome.org
          ENTERED=20030510
-         UPDATED=20299314
+         UPDATED=20200314
            SHORT="Text widget that extends the gtk+-2 text widget GtkTextView"
 
 cat << EOF
