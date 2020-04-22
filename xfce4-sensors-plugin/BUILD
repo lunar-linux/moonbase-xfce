@@ -1,5 +1,5 @@
 OPTS+=" --disable-static \
         --disable-debug \
-        --disable-pathchecks""
+        --disable-pathchecks"
 
 default_build
