@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:a30534461fea907f969f608a11c84be0b1aaad687c591c32cd56a9d274ea3e74
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20200314
+         UPDATED=20200509
            SHORT="Desktop manager for Xfce4"
 
 cat << EOF
