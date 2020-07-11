@@ -1,11 +1,11 @@
           MODULE=xarchiver
-         VERSION=0.5.4.14
+         VERSION=0.5.4.15
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ib/xarchiver/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:335bed86e10a1428d54196edf5c828e79ceed05049e83896114aa46f0a950a2f
+      SOURCE_VFY=sha256:2a18f5a8932516ecc5c50152ff6ce77bc3f58a0b221d6db9c70d089cf90d7182
         WEB_SITE=http://xarchiver.sourceforge.net
          ENTERED=20060407
-         UPDATED=20200314
+         UPDATED=20200711
            SHORT="A simple archive manager"
 
 cat << EOF
