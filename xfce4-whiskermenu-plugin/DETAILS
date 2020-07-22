@@ -1,11 +1,11 @@
           MODULE=xfce4-whiskermenu-plugin
-         VERSION=2.4.4
+         VERSION=2.4.5
           SOURCE=${MODULE}-${VERSION}.tar.bz2
  SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=624acf6d46484bb35608a76424579571423e2aefa6579f6e444f5cfb5342ff9a
+      SOURCE_VFY=624acf5241910ea6411840b8c9f9471f0d262ab0583150bb82f9b280eccbaadb0ebbe
         WEB_SITE=http://xfce.org
          ENTERED=20191219
-         UPDATED=20200506
+         UPDATED=20200722
            SHORT="alternate application launcher for Xfce."
 
 cat << EOF
