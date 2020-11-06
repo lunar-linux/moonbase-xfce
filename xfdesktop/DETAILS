@@ -1,11 +1,11 @@
           MODULE=xfdesktop
-         VERSION=4.14.2
+         VERSION=4.14.3
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:a30534461fea907f969f608a11c84be0b1aaad687c591c32cd56a9d274ea3e74
+      SOURCE_VFY=sha256:06d7d08f41a847f539e9aeb52ed715f960255dc1b2162a60e5f90661892a5793
         WEB_SITE=http://www.xfce.org
          ENTERED=20030715
-         UPDATED=20200509
+         UPDATED=20201106
            SHORT="Desktop manager for Xfce4"
 
 cat << EOF
