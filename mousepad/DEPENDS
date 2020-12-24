@@ -1,4 +1,5 @@
 depends xfconf
 depends gtksourceview3
 depends desktop-file-utils
+depends hicolor-icon-theme
 depends intltool

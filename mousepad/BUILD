@@ -1,5 +1,4 @@
 OPTS+=" --disable-static \
-        --disable-debug \
-        --enable-gtk3"
+        --disable-debug"
 
 default_build
