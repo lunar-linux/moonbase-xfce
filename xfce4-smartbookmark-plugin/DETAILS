@@ -1,11 +1,11 @@
           MODULE=xfce4-smartbookmark-plugin
-         VERSION=0.5.1
+         VERSION=0.5.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:3e28fb7cd2e2251e89a8715684081b862406e3fb4e6d8c0caa1b798a97703600
+      SOURCE_VFY=sha256:077092f164317327ccea49692fe166ad1dc7ff0cbbaf9863e5f0d11ca077b7e5
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-smartbookmark-plugin
          ENTERED=20061124
-         UPDATED=20200317
+         UPDATED=20201224
            SHORT="search the web from your panel"
 
 cat << EOF
