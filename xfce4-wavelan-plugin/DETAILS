@@ -1,11 +1,11 @@
           MODULE=xfce4-wavelan-plugin
-         VERSION=0.6.1
+         VERSION=0.6.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:f41f81ea063ae3c7d7904e1ee647a6b5efafc7436f47caed662ee417038eed17
+      SOURCE_VFY=sha256:ea7aa36650c596b1a29567d100776c68ed732aaf0f48c92245c4466058b5481d
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20200317
+         UPDATED=20201224
            SHORT="WaveLAN plugin for XFCE"
 
 cat << EOF
