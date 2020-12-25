@@ -1,23 +1,35 @@
 depends gtk+-3
-depends libxml2
 depends libxfce4util
 depends xfconf
-depends intltool
+
+optional_depends libepoxy \
+   "" \
+   "--disable-epoxy" \
+   "for libepoxy OpenGL support" \
+   "y"
+
+optional_depends libgtop \
+   "" \
+   "--disable-glibtop" \
+   "for libGtop support" \
+   "y"
+
+optional_depends libgudev \
+   "" \
+   "--disable-gudev" \
+   "for GObject udev support" \
+   "y"
 
 optional_depends startup-notification \
                  "--enable-startup-notification" \
                  "--disable-startup-notification" \
-                 "for startup notification support"
+                 "for startup notification support" \
+                 "y"
 
 optional_depends vala \
                  "--enable-vala=yes" \
                  "--enable-vala=no" \
-                 "for vala support"
-
-optional_depends libglade \
-                 "--enable-gladeui2" \
-                 "--disable-gladeui2" \
-                 "for glade inbterface designer" \
+                 "for vala support" \
                  "n"
 
 optional_depends gobject-introspection \
@@ -25,12 +37,3 @@ optional_depends gobject-introspection \
                  "--enable-introspection=no" \
                  "for object introspection" \
                  "y"
-# not real depends, but we really want them
-#depends gtk-xfce-engine
-depends xfce4-icon-theme
-
-optional_depends gtk+-2 \
-                 "--enable-gtk2" \
-                 "--disable-gtk2" \
-                 "for GTK 2.x support" \
-                 "n"
