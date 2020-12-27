@@ -11,11 +11,29 @@ optional_depends libXrandr \
                  "--disable-xrandr" \
                  "for X render support" \
                  "y"
+                 
+optional_depends upower \
+                 "--enable-upower-glib" \
+                 "--disable-upower-glib" \
+                 "for device power control support" \
+                 "y"
 
 optional_depends libnotify \
                  "--enable-libnotify" \
                  "--disable-libnotify" \
                  "for notification support" \
+                 "y"
+
+optional_depends colord \
+                 "--enable-colord" \
+                 "--disable-colord" \
+                 "for colord support" \
+                 "y"
+                 
+optional_depends libXcursor \
+                 "--enable-xcursor" \
+                 "--disable-xcursor" \
+                 "for X cursor support" \
                  "y"
 
 optional_depends libinput \
@@ -24,17 +42,10 @@ optional_depends libinput \
                  "for X libinput driver support" \
                  "y"
 
-
 optional_depends libxklavier \
                  "--enable-libxklavier" \
                  "--disable-libxklavier" \
                  "for keyboard layout selection support" \
-                 "y"
-
-optional_depends libXcursor \
-                 "--enable-xcursor" \
-                 "--disable-xcursor" \
-                 "for X cursor support" \
                  "y"
 
 optional_depends libcanberra \
@@ -42,9 +53,3 @@ optional_depends libcanberra \
                  "--disable-sound-settings" \
                  "for sound control" \
                  "y"
-
-optional_depends colord \
-                 "--enable-colord" \
-                 "--disable-colord" \
-                 "for colord support" \
-                 "n"
