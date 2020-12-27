@@ -1,15 +1,8 @@
-depends libSM
-depends xfconf
 depends libwnck3
-depends xrdb
 depends iceauth
-depends xinit
-depends hicolor-icon-theme
+
 
 optional_depends polkit \
                  "--enable-polkit" \
                  "--disable-polkit" \
                  " for PolicyKit support"
-
-optional_depends gnome-keyring "" "" "for keyring support when GNOME compatibility is enabled"
-optional_depends upower     "" "" "Upower support"
