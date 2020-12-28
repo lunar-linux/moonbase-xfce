@@ -1,11 +1,11 @@
           MODULE=xfce4-sensors-plugin
-         VERSION=1.3.92
+         VERSION=1.3.95
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/xfce4-sensors-plugin/${VERSION%.*}/
-      SOURCE_VFY=sha256:3dc6643d2c064b7718badff44b948f8d410f00f13db197820b26ae38045f5112
+      SOURCE_VFY=sha256:83c64ae4618dd592971cfa0bc285a9b47af801a3ed856835cdb2a4c533c7846c
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin
          ENTERED=20061124
-         UPDATED=2020317
+         UPDATED=20201228
            SHORT="hardware sensors plugin for the Xfce panel"
 
 cat << EOF
