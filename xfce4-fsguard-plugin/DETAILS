@@ -1,11 +1,11 @@
           MODULE=xfce4-fsguard-plugin
-         VERSION=1.1.1
+         VERSION=1.1.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:d6d05d0a90a68453d65cdceec5ca7eeaef864393ab62eef532a7ba58f374d516
+      SOURCE_VFY=sha256:67d8e6a219a7117c59693adbc59c39a6eba31e3f18a5499189ef4ef28b554105
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20200317
+         UPDATED=20201228
            SHORT="XFCE plugin to monitor free space on mount points"
 
 cat << EOF
