@@ -1,11 +1,11 @@
           MODULE=xfce4-mount-plugin
-         VERSION=1.1.4
+         VERSION=1.1.5
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:e58f182bafd21eb2318cf902401708d0b41f9a40a015f6f0d3ae4c6d17f7b4f1
+      SOURCE_VFY=sha256:584cd954929e542b3da0ff8d69e0325d8838dc39e7b32a509d1074ce3bb58ec2
         WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-mount-plugin
          ENTERED=20061124
-         UPDATED=20201221
+         UPDATED=20201228
            SHORT="A mount/umount utility for the panel"
 
 cat << EOF
