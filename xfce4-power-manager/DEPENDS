@@ -1,2 +1,9 @@
 depends xfce4-panel
 depends upower
+depends libnotify
+
+optional_depends polkit \
+      "" \
+      "--disable-polkit" \
+      "for PolicyKit support" \
+      "y"
