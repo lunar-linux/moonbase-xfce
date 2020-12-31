@@ -1,10 +1,10 @@
 depends dbus-glib
 depends gdk-pixbuf
-depends freetype2
-depends intltool
 
+optional_depends freetype2 "" "" "for font thumbnails"
+optional_depends %JPEG "" "" "for jpeg thumbnails from exif data"
 optional_depends ffmpegthumbnailer "" "" "for video thumbnails"
-
 optional_depends gstreamer "" "" "second video thumbnail backend"
-optional_depends libgsf    "" "" "for ODF thumbnails"
 optional_depends poppler   "" "" "for PDF thumbnails"
+optional_depends libgsf    "" "" "for ODF thumbnails"
+optional_depends libopenraw "" "" "for RAW image thumbnails"

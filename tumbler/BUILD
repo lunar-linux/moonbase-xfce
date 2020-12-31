@@ -1,5 +1,3 @@
-OPTS+=" --disable-static \
-        --disable-debug \
-        -disable-gstreamer-thumbnailer"
+OPTS+=" --disable-debug"
 
 default_build

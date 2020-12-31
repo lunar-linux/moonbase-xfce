@@ -1,0 +1,4 @@
+default_pre_build &&
+
+## looking for older libopenraw that doesn't exist anymore
+sed -i 's/libopenraw-gnome-0.1/libopenraw-gnome-0.3/g' configure
