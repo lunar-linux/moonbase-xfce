@@ -1,7 +1,12 @@
 depends exo
 depends libpng
 depends shared-mime-info
-depends desktop-file-utils
+
+optional_depends dbus-glib \
+   "" \
+   "" \
+   "for dbus support" \
+   "y"
 
 optional_depends pcre \
                  "--enable-pcre" \
