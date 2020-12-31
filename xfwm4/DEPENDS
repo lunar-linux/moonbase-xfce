@@ -1,18 +1,34 @@
 depends libwnck3
 depends libxfce4ui
-depends libxpresent
-depends xfconf
-depends hicolor-icon-theme
 
 optional_depends libepoxy \
                  "--enable-epoxy" \
                  "--disable-epoxy" \
                  "for checking OpenGL handling" \
-                 "n"
+                 "y"
+                 
+optional_depends libXrandr \
+      "--enable-randr" \
+      "--disable-randr" \
+      "for the X RandR extension (requires X Render - next)" \
+      "y"
+              
+optional_depends libXrender \
+      "--enable-render" \
+      "--disable-render" \
+      "for the X render extension" \
+      "y"
+
+optional_depends libxpresent \
+                 "--enable-xpresent" \
+                 "--disable-xpresent" \
+                 "for the X present extension" \
+                 "y"
 
 optional_depends startup-notification \
                  "--enable-startup-notification" \
                  "--disable-startup-notification" \
-                 "for startup notification support"
+                 "for startup notification support" \
+                 "y"
 
 
