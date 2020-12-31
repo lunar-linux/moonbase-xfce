@@ -1,6 +1,6 @@
-#depends dbus-glib
+depends dbus-glib
 depends libxfce4util
-depends intltool
+
 
 optional_depends vala \
                  "--enable-vala=yes" \
