@@ -6,22 +6,22 @@ optional_depends libdbusmenu-gtk3 \
                  "--enable-dbusmenu-gtk3=yes" \
                  "--enable-dbusmenu-gtk3=no" \
                  "for dbus menu support"
-                 "y"
+                 y
 
 optional_depends vala \
                  "--enable-vala=yes" \
                  "--enable-vala=no" \
                  "for vala support"
-                 "n"
+                 n
                  
 optional_depends gtk-doc \
                  "--enable-gtk-doc" \
                  "--disable-gtk-doc" \
                  "for building documentation" \
-                 "n"
+                 n
 
 optional_depends gobject-introspection \
                  "--enable-introspection=yes" \
                  "--enable-introspection=no" \
                  "for object introspection" \
-                 "y"
+                 y
