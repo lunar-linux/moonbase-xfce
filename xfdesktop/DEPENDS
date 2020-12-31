@@ -1,6 +1,5 @@
 depends exo
 depends garcon
-depends libnotify
 depends libwnck3
 
 optional_depends libnotify \
