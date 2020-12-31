@@ -1,0 +1,4 @@
+mquery USE_LEGACY_SM \
+  "Enable legacy X11R5 session support?" n \
+  " --enable-legacy-sm" \
+  " --disable-legacy-sm"
