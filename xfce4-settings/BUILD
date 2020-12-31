@@ -1,5 +1,3 @@
-OPTS+=" --disable-debug \
-        --disable-static \
-        --disable-upower-glib"
+OPTS+=" --disable-debug"
 
 default_build
