@@ -1,4 +1,2 @@
 depends garcon
-depends xfconf
 depends libxfce4ui
-depends hicolor-icon-theme
