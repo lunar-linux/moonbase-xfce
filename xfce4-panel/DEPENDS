@@ -1,27 +1,27 @@
 depends exo
 depends garcon
 depends libwnck3
-depends libxfce4ui
-depends xfconf
-depends vala
-depends hicolor-icon-theme
-depends desktop-file-utils
 
+optional_depends libdbusmenu-gtk3 \
+                 "--enable-dbusmenu-gtk3=yes" \
+                 "--enable-dbusmenu-gtk3=no" \
+                 "for dbus menu support"
+                 "y"
+
+optional_depends vala \
+                 "--enable-vala=yes" \
+                 "--enable-vala=no" \
+                 "for vala support"
+                 "n"
+                 
 optional_depends gtk-doc \
                  "--enable-gtk-doc" \
                  "--disable-gtk-doc" \
                  "for building documentation" \
                  "n"
 
-# it breaks the build
-#optional_depends gobject-introspection \
-#                 "--enable-introspection=yes" \
-#                 "--enable-introspection=no" \
-#                 "for object introspection" \
-#                 "y"
-
-optional_depends gtk+-2 \
-                 "--enable-gtk2" \
-                 "--disable-gtk2" \
-                 "for GTK 2.x support" \
-                 "n"
+optional_depends gobject-introspection \
+                 "--enable-introspection=yes" \
+                 "--enable-introspection=no" \
+                 "for object introspection" \
+                 "y"
