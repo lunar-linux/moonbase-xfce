@@ -5,13 +5,13 @@ depends libwnck3
 optional_depends libdbusmenu-gtk3 \
                  "--enable-dbusmenu-gtk3=yes" \
                  "--enable-dbusmenu-gtk3=no" \
-                 "for dbus menu support"
+                 "for dbus menu support" \
                  "y"
 
 optional_depends vala \
                  "--enable-vala=yes" \
                  "--enable-vala=no" \
-                 "for vala support"
+                 "for vala support" \
                  "n"
                  
 optional_depends gtk-doc \
