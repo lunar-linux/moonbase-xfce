@@ -1,13 +1,18 @@
           MODULE=xfce4-whiskermenu-plugin
-         VERSION=2.5.0
+         VERSION=2.5.1
           SOURCE=${MODULE}-${VERSION}.tar.bz2
  SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:341a2fe052bbe0e19cb7147dc180f0cd522b47b9b33d7f22289ae5142a512644
+      SOURCE_VFY=sha256:b2074f8a9caa766e2d97f0b960ef2f4d1e20dd804497229bc1f0157791896925
         WEB_SITE=http://xfce.org
          ENTERED=20191219
-         UPDATED=20201225
+         UPDATED=20210103
            SHORT="alternate application launcher for Xfce."
 
 cat << EOF
-Whisker Menu is an alternate application launcher for Xfce. When you open it you are shown a list of applications you have marked as favorites. You can browse through all of your installed applications by clicking on the category buttons on the side. Top level categories make browsing fast, and simple to switch between. Additionally, Whisker Menu keeps a list of the last ten applications that you've launched from it.
+Whisker Menu is an alternate application launcher for Xfce. When you open it
+you are shown a list of applications you have marked as favorites.
+You can browse through all of your installed applications by clicking on the
+category buttons on the side. Top level categories make browsing fast, and
+simple to switch between. Additionally, Whisker Menu keeps a list of the last
+ten applications that you've launched from it.
 EOF
