@@ -1,3 +1,3 @@
-OPTS+="  --disable-debug"
+OPTS+=" --disable-debug" &&
 
 default_build
