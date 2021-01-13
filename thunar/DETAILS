@@ -1,12 +1,12 @@
           MODULE=thunar
-         VERSION=4.16.1
+         VERSION=4.16.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/thunar/${VERSION%.*}
-      SOURCE_VFY=sha256:da2d17d2cb69eb33768690b714cc232ed367cbd71eb9543aaa2a805d05dc3ce1
+      SOURCE_VFY=sha256:67a90b98c436192f9aa6cd18a22a089e713007864aebfa65f36f121c86ba7add
         WEB_SITE=http://thunar.xfce.org
         REPLACES=Thunar
          ENTERED=20060407
-         UPDATED=20210107
+         UPDATED=20210113
            SHORT="File manager for xfce"
 
 cat << EOF
