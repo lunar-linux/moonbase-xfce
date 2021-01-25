@@ -1,11 +1,11 @@
           MODULE=xfce4-taskmanager
-           VERSION=1.2.2
+           VERSION=1.4.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:e49a61c819a4fd9286a65ae61605984f327c8b26cf939289f644e656bfa20e13
+      SOURCE_VFY=sha256:655684ddfc15fc09071f78f9fce5439d20bbd2d80ecfc5ba0a08fb38313e7d43
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20200314
+         UPDATED=20210125
            SHORT="A task manager for the XFCE"
 
 cat << EOF
