@@ -1,9 +1,0 @@
-depends gtk+-3
-depends libXmu
-depends libxfce4util
-
-optional_depends libwnck3 \
-                 "--enable-wnck3" \
-                 "--disable-wnck3" \
-                 "for window icons/names" \
-                 "y"
