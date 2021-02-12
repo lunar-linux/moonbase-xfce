@@ -1,6 +1,6 @@
 depends xfce4-panel
 depends upower
-depends libnotify
+depends xfce4-notifyd
 
 optional_depends polkit \
       "" \
