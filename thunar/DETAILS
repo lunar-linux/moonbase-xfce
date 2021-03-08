@@ -1,8 +1,8 @@
           MODULE=thunar
-         VERSION=4.16.4
+         VERSION=4.16.5
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/thunar/${VERSION%.*}
-      SOURCE_VFY=sha256:d51a2018c1ba7dcc420e7a84d85cc17a58f26fb1c80ee4c15e689a49f10425f9
+      SOURCE_VFY=sha256:ec077293b1fb291fe12658b4fe6b92c924126dc6527f426516011ddf5ee56d47
         WEB_SITE=http://thunar.xfce.org
         REPLACES=Thunar
          ENTERED=20060407
