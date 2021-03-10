@@ -1,11 +1,11 @@
           MODULE=xfce4-netload-plugin
-         VERSION=1.3.2
+         VERSION=1.4.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:22e40425cfe1e07b01fe275b1afddc7c788af34d9c2c7e2842166963cb41215d
+      SOURCE_VFY=sha256:6c76260e101790754dd93255ec979accd97d21a21da85d8edcd6c7b01ddcd70c
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20200317
+         UPDATED=20210310
            SHORT="A XFce4 Netload plugin"
 
 cat << EOF
