@@ -1,11 +1,11 @@
           MODULE=exo
-         VERSION=4.16.0
+         VERSION=4.16.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:1975b00eed9a8aa1f899eab2efaea593731c19138b83fdff2f13bdca5275bacc
+      SOURCE_VFY=sha256:528dac256315ffc2a4a53b3b421979327962121989886e3cf920aeff9912b53b
         WEB_SITE=https://www.xfce.org/
          ENTERED=20040930
-         UPDATED=20201223
+         UPDATED=20210312
            SHORT="The Xfce extension library"
 
 cat << EOF
