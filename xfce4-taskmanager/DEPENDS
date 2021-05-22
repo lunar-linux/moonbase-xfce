@@ -7,15 +7,3 @@ optional_depends libwnck3 \
                  "--disable-wnck3" \
                  "for window icons/names" \
                  "y"
-
-optional_depends gtk+-2 \
-                 "--enable-gtk2" \
-                 "--disable-gtk2" \
-                 "for GTK 2.x support" \
-                 "n"
-
-optional_depends libwnck \
-                 "--enable-wnck" \
-                 "--disable-wnck" \
-                 "for window icons/names (requires GTK 2.x)" \
-                 "n"

@@ -1,11 +1,11 @@
           MODULE=xfce4-screensaver
-         VERSION=0.1.11
+         VERSION=4.16.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/apps/xfce4-screensaver/${VERSION%.*}
-      SOURCE_VFY=sha256:814020da160ac4f9bcd79ae098ca6dd17643144214613dcb687821c8d8deac77
+      SOURCE_VFY=sha256:6d4d143e3e62db679ce83ce7da97903390773ee0a8ceb05ff4c3dac36616268d
         WEB_SITE=http://www.xfce.org
          ENTERED=20200317
-         UPDATED=20201110
+         UPDATED=20210104
            SHORT="An XFCE plugin for screensaver"
 
 cat << EOF

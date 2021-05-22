@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:eb9c587c01b502fa45a32e7fc2aba98fa6d8391475133883654f77e562c43bf3
         WEB_SITE=http://www.xfce.org
          ENTERED=20090307
-         UPDATED=20201223
+         UPDATED=20210212
            SHORT="A power manager Xfce"
 
 cat << EOF
