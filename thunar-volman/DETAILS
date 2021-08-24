@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:d2c0e719b242b7fd3db70bc6678a2df1abf2cfaa899b775a1591a5efa08a547d
         WEB_SITE=http://goodies.xfce.org/projects/thunar-plugins/thunar-volman
          ENTERED=20070123
-         UPDATED=2021223
+         UPDATED=20201227
            SHORT="Automatic management of removable drives and media"
 
 cat << EOF
