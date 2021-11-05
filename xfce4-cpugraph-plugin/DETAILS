@@ -1,8 +1,8 @@
           MODULE=xfce4-cpugraph-plugin
-         VERSION=1.2.4
+         VERSION=1.2.5
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:c7d21de539f6263ecbee5971497bb22a1e84628f0e1483b6302a7976745d7705
+      SOURCE_VFY=sha256:c2f6dbd7f83c79b63b83c98232c79d050e18640e82464b9ec8d3643a92c3a1b0
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
          UPDATED=20211105
