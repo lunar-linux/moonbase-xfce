@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:b5b24ca04bd73c642db0a4b4df81d262381d758f01b51108257d48b391b8718c
         WEB_SITE=http://www.xfce.org/
          ENTERED=20030715
-         UPDATED=20210109
+         UPDATED=20211114
            SHORT="Window manager for Xfce4"
 
 cat << EOF
