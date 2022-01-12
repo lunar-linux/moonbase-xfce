@@ -1,11 +1,11 @@
           MODULE=mousepad
-         VERSION=0.5.6
+         VERSION=0.5.8
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
-      SOURCE_VFY=sha256:42559863b01d89bd21136beea0a1461530377fabc6553bdfe14399d55596350f
+      SOURCE_VFY=sha256:921ebbcfdfd5e2e56f31a5177a2d26f46c758cc972595017bca9e0a6a3c3a721
         WEB_SITE=http://erikharrison.net
          ENTERED=20050218
-         UPDATED=20210731
+         UPDATED=20211205
            SHORT="Lighweight xfce text editor"
 
 cat << EOF

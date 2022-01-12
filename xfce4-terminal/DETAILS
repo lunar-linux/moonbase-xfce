@@ -1,11 +1,11 @@
           MODULE=xfce4-terminal
-         VERSION=0.8.10
+         VERSION=0.9.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION::3}
-      SOURCE_VFY=sha256:7a3337c198e01262a0412384823185753ac8a0345be1d6776a7e9bbbcbf33dc7
+      SOURCE_VFY=sha256:53ba1f76501b3d85275c4749eb1d696ff5ef211c16af338f07e0dd6b7947e371
         WEB_SITE=http://www.xfce.org/projects/terminal
          ENTERED=20040930
-         UPDATED=20201224
+         UPDATED=20211105
            SHORT="vte-based gtk+-2 lightweight X-terminal"
 
 cat << EOF
