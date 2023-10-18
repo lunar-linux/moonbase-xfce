@@ -1,14 +1,12 @@
           MODULE=gtksourceview3
-             MOD=gtksourceview
          VERSION=3.24.11
-          COMMIT=f50f813df11b153575991cae8793cc25af295b36
-          SOURCE=$MOD-$VERSION.tar.xz
-      SOURCE_URL=https://ftp.gnome.org/pub/gnome/sources/gtksourceview/${VERSION%.*}/
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MOD-$VERSION
+          SOURCE=${MODULE%3*}-$VERSION.tar.xz
+      SOURCE_URL=https://download.gnome.org/sources/gtksourceview/${VERSION%.*}/
       SOURCE_VFY=sha256:691b074a37b2a307f7f48edc5b8c7afa7301709be56378ccf9cc9735909077fd
-        WEB_SITE=http://www.gnome.org
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/gtksourceview-$VERSION
+        WEB_SITE=https://wiki.gnome.org/Projects/GtkSourceView
          ENTERED=20030510
-         UPDATED=20200314
+         UPDATED=20231018
            SHORT="Text widget that extends the gtk+-2 text widget GtkTextView"
 
 cat << EOF
