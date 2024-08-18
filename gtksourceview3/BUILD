@@ -1,4 +1,4 @@
-autoreconf -i &&
+autoreconf -fi &&
 
 OPTS+=" --disable-static \
         --disable-debug \
