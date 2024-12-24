@@ -3,7 +3,7 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:bb303fc3020e053ad1fa0b8fcbf0d7681c5563bb8f649357d6a95a577802b072
-        WEB_SITE=http://www.xfce.org
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-systemload-plugin/start
          ENTERED=20061124
          UPDATED=20241224
            SHORT="system load plugin for the Xfce panel"
