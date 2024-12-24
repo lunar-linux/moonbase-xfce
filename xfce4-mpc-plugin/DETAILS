@@ -3,7 +3,7 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:0467fb4d1acd982d3c3e0b89cb41019946850524ff19ed0f658a8d56c7b7664d
-        WEB_SITE=http://www.xfce.org
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-mpc-plugin/start
          ENTERED=20061124
          UPDATED=20241224
            SHORT="A simple client Xfce plugin for Music Player Daemon"
