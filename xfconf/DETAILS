@@ -1,14 +1,13 @@
         MODULE=xfconf
-       VERSION=4.16.0
+       VERSION=4.20.0
         SOURCE=$MODULE-$VERSION.tar.bz2
     SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-    SOURCE_VFY=sha256:652a119007c67d9ba6c0bc7a740c923d33f32d03dc76dfc7ba682584e72a5425
+    SOURCE_VFY=sha256:8bc43c60f1716b13cf35fc899e2a36ea9c6cdc3478a8f051220eef0f53567efd
       WEB_SITE=http://www.xfce.org
        ENTERED=20090227
-       UPDATED=20201223
+       UPDATED=20241224
          SHORT="Configuration system for Xfce"
 
 cat << EOF
 Configuration storage system for Xfce
 EOF
-
