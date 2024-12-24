@@ -17,7 +17,7 @@ optional_depends pcre \
 optional_depends libnotify \
                  "--enable-notifications" \
                  "--disable-notifications" \
-                 "enable notifiactions support" \
+                 "enable notifications support" \
                  "y"
 
 optional_depends libgudev \
@@ -37,7 +37,7 @@ optional_depends xfce4-panel "" "" "for trash applet"
 optional_depends gtk-doc \
                  "--enable-gtk-doc=yes" \
                  "--enable-gtk-doc=no" \
-                 "for nstalling the documentation" \
+                 "for installing the documentation" \
                  "n"
 
 optional_depends gobject-introspection \
