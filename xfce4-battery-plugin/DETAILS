@@ -3,7 +3,7 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
       SOURCE_VFY=sha256:752233bfb320ee1e26104a656cbb868299f562733063e2b9a18f0966585ce213
-        WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-battery-plugin
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-battery-plugin/start
          ENTERED=20061124
          UPDATED=20241224
            SHORT="battery monitor panel plugin for Xfce4"
