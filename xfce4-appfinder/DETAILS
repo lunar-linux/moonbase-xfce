@@ -1,11 +1,11 @@
           MODULE=xfce4-appfinder
-         VERSION=4.16.1
+         VERSION=4.20.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:bfe3e9bd92695014ee74a2fbb7f5fd1b4c29cf043c4a11598b8958324c81e7ec
+      SOURCE_VFY=sha256:82ca82f77dc83e285db45438c2fe31df445148aa986ffebf2faabee4af9e7304
         WEB_SITE=http://www.xfce.org
          ENTERED=20041003
-         UPDATED=20210119
+         UPDATED=20241224
            SHORT="Easy search available applications"
 
 cat << EOF
