@@ -3,7 +3,7 @@
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:5909a65341a6af4d7ff3c7bb87aeac91c763f69b43ae9dc4a10668ac226fecc9
-        WEB_SITE=http://www.xfce.org
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-diskperf-plugin/start
          ENTERED=20061124
          UPDATED=20241224
            SHORT="A disk/partition performance monitor"
