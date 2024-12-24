@@ -1,3 +1,5 @@
-OPTS+=" --python=python"
+OPTS+=" --prefix=/usr --python=python"
 
-default_build
+./configure $OPTS &&
+
+default_make
