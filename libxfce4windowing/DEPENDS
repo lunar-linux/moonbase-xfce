@@ -1,0 +1,27 @@
+depends glib-2
+depends gtk+-3
+depends gdk-pixbuf
+depends libwnck
+depends libdisplay-info
+depends xrandr
+
+optional_depends libX11 \
+                 "--enable-x11" \
+                 "--disable-x11" \
+                 "for running on Xorg-based windowing systems"
+
+optional_depends wayland \
+                 "--enable-wayland" \
+                 "--disable-wayland" \
+                 "for running on Wayland-based windowing systems"
+
+optional_depends gobject-introspection \
+                 "--enable-introspection=yes" \
+                 "--enable-introspection=no" \
+                 "for object introspection" \
+                 "y"
+
+optional_depends gtk-doc \
+                 "--enable-gtk-doc" \
+                 "--enable-gtk-doc=no --enable-gtk-doc-html=no" \
+                 "to generate documentation"
