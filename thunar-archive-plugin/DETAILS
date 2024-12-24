@@ -1,11 +1,11 @@
           MODULE=thunar-archive-plugin
-         VERSION=0.4.0
+         VERSION=0.5.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/thunar-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:bf82fa86a388124eb3c4854249c30712b2922e61789607268ee14548549b3115
+      SOURCE_VFY=sha256:6379f877bcfc0ea85db9f43723b6fb317893050c712bd03c2ae3232fb9d5ade3
         WEB_SITE=http://foo-projects.org/~benny/projects/thunar-archive-plugin/index.html
          ENTERED=20070123
-         UPDATED=20200314
+         UPDATED=20241224
            SHORT="create archives in Thunar"
 
 cat << EOF
