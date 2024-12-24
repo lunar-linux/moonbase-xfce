@@ -1,11 +1,11 @@
           MODULE=xfce4-screenshooter
-         VERSION=1.9.9
+         VERSION=1.11.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/apps/xfce4-screenshooter/${VERSION%.*}
-      SOURCE_VFY=sha256:33c8aeb53fbdb82dbd7d40bca77a8affbb4116ba0993cd59474b554558e5daa4
+      SOURCE_VFY=sha256:d94c4a37ac9b26f6d73214bdc254624a4ede4e111bee8d34e689f8f04c37d34d
         WEB_SITE=http://www.xfce.org
          ENTERED=20061124
-         UPDATED=20201521
+         UPDATED=20241224
            SHORT="An XFCE plugin to take screenshots"
 
 cat << EOF
