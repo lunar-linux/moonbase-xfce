@@ -6,6 +6,16 @@ depends xfconf
 depends libxfce4ui
 depends intltool
 
+optional_depends libX11 \
+                 "--enable-x11" \
+                 "--disable-x11" \
+                 " for Xorg-based windowing systems"
+
+optional_depends wayland \
+                 "--enable-wayland" \
+                 "--disable-wayland" \
+                 " for Wayland-based windowing systems"
+
 optional_depends libXrandr \
                  "--enable-xrandr" \
                  "--disable-xrandr" \

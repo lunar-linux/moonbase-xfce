@@ -1,11 +1,11 @@
           MODULE=xfce4-settings
-         VERSION=4.16.2
+         VERSION=4.20.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:4dd7cb420860535e687f673c0b5c0274e0d2fb67181281d4b85be9197da03d7e
+      SOURCE_VFY=sha256:23548da3429a296501fbfdbc98a861ee241b9fdd47e8d5de1781f57c6bbce5a9
         WEB_SITE=http://www.xfce.org/
          ENTERED=20090227
-         UPDATED=20210609
+         UPDATED=20241224
            SHORT="Xfce settings manager"
 
 cat << EOF
