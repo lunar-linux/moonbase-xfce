@@ -1,11 +1,11 @@
           MODULE=tumbler
-         VERSION=4.16.0
+         VERSION=4.20.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/tumbler/${VERSION%.*}
-      SOURCE_VFY=sha256:9b0b7fed0c64041733d490b1b307297984629d0dd85369749617a8766850af66
+      SOURCE_VFY=sha256:74b1647d55926547e98bfac70838ff63c5a84299a5e10c81c38d1fab90e25880
         WEB_SITE=http://xfce.org
          ENTERED=20110418
-         UPDATED=20201223
+         UPDATED=20241224
            SHORT="XFCE thumbnailer"
 
 cat <<EOF
