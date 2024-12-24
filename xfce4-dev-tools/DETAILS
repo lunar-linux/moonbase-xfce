@@ -1,15 +1,15 @@
           MODULE=xfce4-dev-tools
-         VERSION=4.14.0
+         VERSION=4.20.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:2c9eb8e0fe23e47dc31411a93b683fd1b7a49140e9163f0aab9e94a3d8a0b5fd
-        WEB_SITE=http://www.xfce.org
+      SOURCE_VFY=sha256:1fba39a08a0ecc771eaa3a3b6e4272a4f0b9e7c67d0f66e780cd6090cd4466aa
+        WEB_SITE=https://gitlab.xfce.org/xfce/xfce4-dev-tools
          ENTERED=20030715
-         UPDATED=20200314
-           SHORT="Developer tools for Xfce4"
+         UPDATED=20241224
+           SHORT="Autoconf macros and scripts to augment xfce4 app build systems"
 
 cat << EOF
 The Xfce development tools are a collection of tools and macros for
-Xfce developers and people that want to build Xfce from SVN. In addition
+Xfce developers and people that want to build Xfce from git. In addition,
 it contains the Xfce developer's handbook.
 EOF
