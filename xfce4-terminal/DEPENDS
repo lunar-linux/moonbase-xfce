@@ -3,9 +3,3 @@ depends hicolor-icon-theme
 depends libxfce4ui
 depends vte3
 depends intltool
-
-optional_depends  dbus-glib \
-                  "--enable-dbus" \
-                  "--disable-dbus" \
-                  "For DBUS support" \
-                  "y"
