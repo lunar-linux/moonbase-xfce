@@ -1,11 +1,11 @@
           MODULE=xfce4-systemload-plugin
-         VERSION=1.3.1
+         VERSION=1.3.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:56d1007801d52d7c2b5a13bb54745f6d7f06fda28b49ce936145633068817652
-        WEB_SITE=http://www.xfce.org
+      SOURCE_VFY=sha256:bb303fc3020e053ad1fa0b8fcbf0d7681c5563bb8f649357d6a95a577802b072
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-systemload-plugin/start
          ENTERED=20061124
-         UPDATED=20210324
+         UPDATED=20241224
            SHORT="system load plugin for the Xfce panel"
 
 cat << EOF
