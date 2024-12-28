@@ -1,11 +1,11 @@
           MODULE=xfdashboard
-         VERSION=0.8.0
+         VERSION=1.0.0
           SOURCE=${MODULE}-${VERSION}.tar.bz2
  SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=5834d6cb2e3f623224ac886c47a07069bab770484026d069e634ce7b6cc43ad8
-        WEB_SITE=http://xfce.org
+      SOURCE_VFY=sha256:a5284343e5ce09722f98d3b578588b36923e1ae5649754aa906980fdcdef48a5
+        WEB_SITE=https://docs.xfce.org/apps/xfdashboard/start
          ENTERED=20200409
-         UPDATED=20210127
+         UPDATED=20241224
            SHORT="alternate application launcher for Xfce."
 
 cat << EOF
