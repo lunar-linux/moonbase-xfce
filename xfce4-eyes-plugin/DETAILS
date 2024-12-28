@@ -1,11 +1,11 @@
           MODULE=xfce4-eyes-plugin
-         VERSION=4.5.1
+         VERSION=4.6.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:4db780178e529391d53da180e49386904e69a5a33b3bd5185835d0a7e6ff5ac5
-        WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-eyes-plugin
+      SOURCE_VFY=sha256:ad0ff05d88ba393b7c8922f8233edd33fc0a4e8b000b61de1f8f3a10c5ae5324
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-eyes-plugin/start
          ENTERED=20061124
-         UPDATED=20200621
+         UPDATED=20241224
            SHORT="The eyes on your Xfce panel"
 
 cat << EOF
