@@ -1,11 +1,11 @@
           MODULE=xfce4-pulseaudio-plugin
-         VERSION=0.4.3
+         VERSION=0.4.9
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:5a518237e2137341d8ca6584938950525e20c28a0177e30ecaea3ba8e7a2615b
-        WEB_SITE=http://goodies.xfce.org/projects/panel-plugins/xfce4-pulseaudio-plugin/
+      SOURCE_VFY=sha256:a0807615fb2848d0361b7e4568a44f26d189fda48011c7ba074986c8bfddc99a
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/start
          ENTERED=20030715
-         UPDATED=20200414
+         UPDATED=20241224
            SHORT="Pulseaudio plugin for Xfce4 panel"
 
 cat << EOF
