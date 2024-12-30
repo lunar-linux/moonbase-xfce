@@ -1,3 +1,4 @@
+depends libxfce4windowing
 depends exo
 depends garcon
 depends libwnck3
