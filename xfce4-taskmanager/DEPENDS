@@ -1,6 +1,7 @@
 depends gtk+-3
 depends libXmu
 depends libxfce4util
+depends libxfce4ui
 
 optional_depends libwnck3 \
                  "--enable-wnck3" \
