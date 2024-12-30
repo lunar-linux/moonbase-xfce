@@ -1,3 +1,4 @@
+depends xfce4-dev-tools
 depends libxfce4windowing
 depends exo
 depends garcon
