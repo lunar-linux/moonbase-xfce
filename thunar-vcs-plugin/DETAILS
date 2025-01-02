@@ -1,0 +1,15 @@
+          MODULE=thunar-vcs-plugin
+         VERSION=0.3.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=https://archive.xfce.org/src/thunar-plugins/$MODULE/${VERSION%.*}/
+      SOURCE_VFY=sha256:4093b2802f08222b6b8edc6aa8127059ef138ff2b382117a25c34441ba6c1fec
+        WEB_SITE=https://docs.xfce.org/xfce/thunar/start
+         ENTERED=20070123
+         UPDATED=20250102
+           SHORT="adds Subversion and GIT actions in Thunar"
+
+cat << EOF
+The Thunar VCS Plugin adds Subversion and GIT actions to the context
+menu of Thunar. This gives a SVN integration and GIT integration to
+Thunar.
+EOF
