@@ -1,1 +1,20 @@
+depends cmake
+depends pkgconf
+depends gettext
+depends glib-2
+depends gtk+-3
+depends libxfce4util
+depends libxfce4ui
+depends xfconf
+depends exo
+depends garcon
 depends xfce4-panel
+
+optional_depends accountsservice \
+        "-DENABLE_ACCOUNTS_SERVICE=ON" "-DENABLE_ACCOUNTS_SERVICE=OFF" \
+        "for building with AccountsService with D-Bus interface"
+
+optional_depends gtk-layer-shell \
+        "-DENABLE_GTK_LAYER_SHELL=ON" \
+        "-DENABLE_GTK_LAYER_SHELL=OFF" \
+        "for positioning in Wayland"
