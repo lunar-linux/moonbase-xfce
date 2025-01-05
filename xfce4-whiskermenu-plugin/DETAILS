@@ -4,6 +4,7 @@
  SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}/
       SOURCE_VFY=sha256:ed918950e01dc97fe831e01c698b44247f1537992999b1262ab61c799272b3b7
         WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start
+            TYPE=cmake
          ENTERED=20191219
          UPDATED=20250105
            SHORT="alternate application launcher for Xfce."
