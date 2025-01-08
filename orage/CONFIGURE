@@ -1,0 +1,2 @@
+mquery X11_TRAY_ICON "for the tray icon in X11, not comptible with Wayland" \
+    n "--enable-x11-tray-icon" "--disable-x11-tray-icon"
