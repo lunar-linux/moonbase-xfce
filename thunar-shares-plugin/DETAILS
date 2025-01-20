@@ -1,0 +1,15 @@
+          MODULE=thunar-shares-plugin
+         VERSION=0.4.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=https://archive.xfce.org/src/thunar-plugins/$MODULE/${VERSION%.*}/
+      SOURCE_VFY=sha256:0afc9b9ff31c88b208ca9a58bc61d95f9f5408f2adbcd7fe911dfce9e22fba44
+        WEB_SITE=https://docs.xfce.org/xfce/thunar/start
+         ENTERED=20250120
+         UPDATED=20250120
+           SHORT="Quickly share folders using Samba"
+
+cat << EOF
+The Thunar Shares Plugin (thunar-shares-plugin) allows you to quickly share
+a folder using Samba from Thunar (the Xfce file manager) without requiring
+root access.
+EOF
