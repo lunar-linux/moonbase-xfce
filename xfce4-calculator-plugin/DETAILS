@@ -1,0 +1,13 @@
+          MODULE=xfce4-calculator-plugin
+         VERSION=0.7.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:3feb5f56092ceef2858c3c1bd443317d4caf289a6409f9db506f49088e19a2e8
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-calculator-plugin/start
+         ENTERED=20250124
+         UPDATED=20250124
+           SHORT="calculator panel plugin for Xfce4"
+
+cat << EOF
+xfce4-calculator-plugin is a calculator plugin for the Xfce4 panel.
+EOF
