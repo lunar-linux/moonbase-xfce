@@ -1,11 +1,11 @@
           MODULE=xfce4-notes-plugin
-         VERSION=1.11.1
+         VERSION=1.11.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:ef410999c9dafc5cf13fdcfd62ae49728508c0d37510f006971d5291061524aa
+      SOURCE_VFY=sha256:8301fcd397bbc98a3def3d94f04de30cc128b4a35477024d2bcb2952a161a3b5
         WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-notes-plugin/start
          ENTERED=20210119
-         UPDATED=20241229
+         UPDATED=20250202
            SHORT="Notes plugin for the Xfce panel"
 
 cat << EOF
