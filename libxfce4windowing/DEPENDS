@@ -1,3 +1,4 @@
+depends xfce4-dev-tools
 depends glib-2
 depends gtk+-3
 depends gdk-pixbuf
