@@ -14,9 +14,7 @@ optional_depends wayland \
                  "for Wayland-based windowing systems" y
 
 optional_depends gtk-layer-shell \
-                 "--enable-wayland" \
-                 "--disable-wayland" \
-                 "required if Wayland support is enabled" y
+                 "" "" "required if Wayland support is enabled" y
 
 optional_depends libnotify \
                  "--enable-notifications" \
