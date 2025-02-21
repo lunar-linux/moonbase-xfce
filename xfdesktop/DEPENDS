@@ -5,12 +5,12 @@ depends libwnck3
 optional_depends libX11 \
                  "--enable-x11" \
                  "--disable-x11" \
-                 " for Xorg-based windowing systems"
+                 "for Xorg-based windowing systems"
 
 optional_depends wayland \
                  "--enable-wayland" \
                  "--disable-wayland" \
-                 " for Wayland-based windowing systems"
+                 "for Wayland-based windowing systems"
 
 optional_depends libnotify \
                  "--enable-notifications" \
