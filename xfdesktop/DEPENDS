@@ -1,6 +1,7 @@
 depends exo
 depends garcon
 depends libwnck3
+depends libxfce4windowing
 
 optional_depends libX11 \
                  "--enable-x11" \
