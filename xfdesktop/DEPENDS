@@ -2,6 +2,7 @@ depends exo
 depends garcon
 depends libwnck3
 depends libxfce4windowing
+depends gtk-layer-shell
 
 optional_depends libX11 \
                  "--enable-x11" \
