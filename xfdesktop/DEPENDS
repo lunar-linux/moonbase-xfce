@@ -2,7 +2,6 @@ depends exo
 depends garcon
 depends libwnck3
 depends libxfce4windowing
-depends gtk-layer-shell
 
 optional_depends libX11 \
                  "--enable-x11" \
@@ -12,7 +11,12 @@ optional_depends libX11 \
 optional_depends wayland \
                  "--enable-wayland" \
                  "--disable-wayland" \
-                 "for Wayland-based windowing systems"
+                 "for Wayland-based windowing systems" y
+
+optional_depends gtk-layer-shell \
+                 "--enable-wayland" \
+                 "--disable-wayland" \
+                 "required if Wayland support is enabled" y
 
 optional_depends libnotify \
                  "--enable-notifications" \
