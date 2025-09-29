@@ -1,5 +1,10 @@
+depends glib-2
+depends gtk+-3
+depends vte3
+depends pcre2
+depends libxfce4util
+depends xfconf
+depends libxfce4ui
 depends XML-Parser
 depends hicolor-icon-theme
-depends libxfce4ui
-depends vte3
 depends intltool
