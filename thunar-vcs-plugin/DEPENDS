@@ -1,4 +1,4 @@
 depends thunar
 
-optional_depends git        "--enable-git" "--disable-git" "for GIT support"
-optional_depends subversion "--enable-subversion" "--disable-subversion" "for SVN support"
+optional_depends git        "-Dgit=enabled" "-Dgit=disabled" "for GIT support"
+optional_depends subversion "-Dsvn=enabled" "-Dsvn=disabled" "for SVN support"
