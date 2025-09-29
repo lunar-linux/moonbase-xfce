@@ -1,11 +1,11 @@
           MODULE=libxfce4util
-         VERSION=4.20.0
+         VERSION=4.20.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:21493f9c9995a282823db93839f6b9f06ae31edb094191ba9acf04d932a2b592
-        WEB_SITE=http://www.xfce.org
+      SOURCE_VFY=sha256:84bfc4daab9e466193540c3665eee42b2cf4d24e3f38fc3e8d1e0a2bebe3b8f1
+        WEB_SITE=https://docs.xfce.org/xfce/libxfce4util/start
          ENTERED=20030715
-         UPDATED=20241224
+         UPDATED=20250929
            SHORT="A utility library for Xfce4"
 
 cat << EOF
