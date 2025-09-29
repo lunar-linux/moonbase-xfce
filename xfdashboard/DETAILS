@@ -1,13 +1,19 @@
           MODULE=xfdashboard
-         VERSION=1.0.0
-          SOURCE=${MODULE}-${VERSION}.tar.bz2
- SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:a5284343e5ce09722f98d3b578588b36923e1ae5649754aa906980fdcdef48a5
+         VERSION=1.1.0
+          SOURCE=${MODULE}-${VERSION}.tar.xz
+      SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
+      SOURCE_VFY=sha256:bd577b36f389d5463040d7095926a487cb4ae7ab30173aa269a1bc29bb6ff8d1
         WEB_SITE=https://docs.xfce.org/apps/xfdashboard/start
+            TYPE=meson
          ENTERED=20200409
-         UPDATED=20241224
+         UPDATED=20250929
            SHORT="alternate application launcher for Xfce."
 
 cat << EOF
-xfdashboard provides a GNOME shell dashboard and macOS Mission Control (Exposé and Spaces) like interface for use with the Xfce desktop. It can be configured to run with any keyboard shortcut and when executed provides an overview of applications currently open enabling the user to switch between different applications. The search feature works like Xfce's app finder which makes it convenient to search for and start applications.
+xfdashboard provides a GNOME shell dashboard and macOS Mission Control (Exposé
+and Spaces) like interface for use with the Xfce desktop. It can be configured
+to run with any keyboard shortcut and when executed provides an overview of
+applications currently open enabling the user to switch between different
+applications. The search feature works like Xfce's app finder which makes it
+convenient to search for and start applications.
 EOF
