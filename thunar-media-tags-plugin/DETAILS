@@ -1,11 +1,12 @@
           MODULE=thunar-media-tags-plugin
-         VERSION=0.5.0
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=0.6.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/thunar-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:105a72d51c7fbcc690c9b9a850f3743accbd9bf5dc51480b5ea283dfde96d61e
+      SOURCE_VFY=sha256:b62dc047100346324e63d46acaaa497e8d7fccd1d10ef5bfb8370fd666a48c4a
         WEB_SITE=https://docs.xfce.org/xfce/thunar/start
+            TYPE=meson
          ENTERED=20061124
-         UPDATED=20250102
+         UPDATED=20250929
            SHORT="Audio tagger plugin for Thunar"
 
 cat << EOF
