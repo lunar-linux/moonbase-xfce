@@ -2,7 +2,7 @@ depends xfce4-dev-tools
 depends glib-2
 depends gtk+-3
 depends gdk-pixbuf
-depends libwnck
+depends libwnck3
 depends libdisplay-info
 depends xrandr
 
