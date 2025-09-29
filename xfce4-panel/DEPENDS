@@ -5,25 +5,25 @@ depends garcon
 depends libwnck3
 
 optional_depends libdbusmenu-gtk3 \
-                 "--enable-dbusmenu-gtk3=yes" \
-                 "--enable-dbusmenu-gtk3=no" \
+                 "-Ddbusmenu=enabled" \
+                 "-Ddbusmenu=disabled" \
                  "for dbus menu support" \
                  "y"
 
 optional_depends vala \
-                 "--enable-vala=yes" \
-                 "--enable-vala=no" \
+                 "-Dvala=enabled" \
+                 "-Dvala=disabled" \
                  "for vala support" \
                  "n"
 
 optional_depends gtk-doc \
-                 "--enable-gtk-doc" \
-                 "--disable-gtk-doc" \
+                 "-Dgtk-doc=true" \
+                 "-Dgtk-doc=false" \
                  "for building documentation" \
                  "n"
 
 optional_depends gobject-introspection \
-                 "--enable-introspection=yes" \
-                 "--enable-introspection=no" \
+                 "-Dintrospection=true" \
+                 "-Dintrospection=false" \
                  "for object introspection" \
                  "y"
