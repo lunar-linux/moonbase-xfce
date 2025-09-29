@@ -1,11 +1,12 @@
           MODULE=thunar-vcs-plugin
-         VERSION=0.3.0
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=0.4.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/thunar-plugins/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:4093b2802f08222b6b8edc6aa8127059ef138ff2b382117a25c34441ba6c1fec
+      SOURCE_VFY=sha256:0e4170e099c9ffedfcbb1290f1fc42c00560cf6108e25fe90685315f18c8d6cc
         WEB_SITE=https://docs.xfce.org/xfce/thunar/start
+            TYPE=meson
          ENTERED=20070123
-         UPDATED=20250102
+         UPDATED=20250929
            SHORT="adds Subversion and GIT actions in Thunar"
 
 cat << EOF
