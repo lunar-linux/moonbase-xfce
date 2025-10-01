@@ -1,3 +1,18 @@
+depends meson
 depends qrencode
 depends xfce4-panel
-depends libXtst
+
+optional_depends libX11 \
+                 "-Dx11=enabled" \
+                 "-Dx11=disabled" \
+                 "for Xorg-based windowing systems"
+
+optional_depends libXtst \
+                 "-Dxtst=enabled" \
+                 "-Dxtst=disabled" \
+                 "libXtst (X record extension) support, needs libX11"
+
+optional_depends wayland \
+                 "-Dwayland=enabled" \
+                 "-Dwayland=disabled" \
+                 "for Wayland-based windowing systems"

@@ -1,11 +1,11 @@
           MODULE=xfce4-clipman-plugin
-         VERSION=1.6.6
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=1.7.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:08ad475b006f878df5dd20d83c98edc33ed21e69b414d0e5ff6d4accd64d7120
+      SOURCE_VFY=sha256:903302c3070a951d44ee17a84fa3cf21d36c6787678af8fbfc79e469fd00cb46
         WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin/
          ENTERED=20061124
-         UPDATED=20241224
+         UPDATED=20251001
            SHORT="clipboard plugin for the Xfce panel"
 
 cat << EOF
