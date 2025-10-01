@@ -1,11 +1,12 @@
           MODULE=xfce4-battery-plugin
-         VERSION=1.1.5
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=1.2.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:752233bfb320ee1e26104a656cbb868299f562733063e2b9a18f0966585ce213
+      SOURCE_VFY=sha256:1dba8f470d2b12517e7b86d83cd2ebf13eb57ff1a01a4f2d2d156cf5194d97b6
         WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-battery-plugin/start
+            TYPE=meson
          ENTERED=20061124
-         UPDATED=20241224
+         UPDATED=20251001
            SHORT="battery monitor panel plugin for Xfce4"
 
 cat << EOF
