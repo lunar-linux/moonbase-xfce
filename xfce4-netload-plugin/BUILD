@@ -1,4 +1,3 @@
-OPTS+=" --disable-static \
-        --disable-debug"
+OPTS+=" -Dtests=false" &&
 
-default_build
+default_meson_build
