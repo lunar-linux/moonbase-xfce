@@ -1,5 +1,10 @@
+depends meson
+depends gtksourceview
 depends xfconf
-depends gtksourceview3
 depends desktop-file-utils
 depends hicolor-icon-theme
 depends intltool
+
+optional_depends gspell "-D gspell-plugin=enabled" \
+                        "-D gspell-plugin=disabled" \
+                        "for spell checking support"
