@@ -1,12 +1,13 @@
           MODULE=xfce4-timer-plugin
-         VERSION=1.7.2
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=1.8.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:feb3b8c2d39505e816683540a3226bd7bda870ccbcb4c7d0f6abfeeff5c58b7d
+      SOURCE_VFY=sha256:1d3ac3aa2c4345400c025642778e7643aab41047622baf9cdc00bbac78e89f99
         WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-timer-plugin/start
+            TYPE=meson
          ENTERED=20061124
-         UPDATED=20241224
-           SHORT="run an alarm at a specified time"
+         UPDATED=20251025
+           SHORT="Runs an alarm at a specified time"
 
 cat << EOF
 This is a simple plugin that lets the user run an alarm at a
