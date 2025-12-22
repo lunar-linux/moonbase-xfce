@@ -1,11 +1,12 @@
           MODULE=xfce4-dict
-         VERSION=0.8.8
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=0.8.9
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}/
-      SOURCE_VFY=sha256:0d0cb079d276d82c174a52c94ee4df12df490a525befc44650e261f8e5eae916
+      SOURCE_VFY=sha256:f1a81baad1e60496aeffc8f8ef1be6413c732b09e250d52d062d293ade001a8c
         WEB_SITE=https://docs.xfce.org/apps/xfce4-dict/start
+            TYPE=meson
          ENTERED=20061124
-         UPDATED=20241224
+         UPDATED=20251222
            SHORT="Query a dictionary server for translation or explanation"
 
 cat << EOF
