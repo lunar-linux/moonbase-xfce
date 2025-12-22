@@ -1,4 +1,8 @@
+depends meson
 depends xfce4-panel
 depends libxklavier
 depends librsvg
 depends libwnck3
+
+optional_depends libnotify "-Dlibnotify=enabled" "-Dlibnotify=disabled" \
+        "for keyboard layout change notifications"
