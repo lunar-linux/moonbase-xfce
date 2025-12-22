@@ -1,11 +1,11 @@
           MODULE=orage
-         VERSION=4.20.0
+         VERSION=4.20.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:ee07918a6f6033e6107e9c1b8e164c645ea590ffbdba0b58d071c0e491046a85
+      SOURCE_VFY=sha256:6bfd3da084c2977fb5cee26c8e94bf55e358da8e86dd2a83c6fa9174f24672a1
         WEB_SITE=https://docs.xfce.org/apps/orage/start
          ENTERED=20031222
-         UPDATED=20250108
+         UPDATED=20251222
            SHORT="Calendar utility for Xfce4"
 
 cat << EOF
