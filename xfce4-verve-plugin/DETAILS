@@ -10,8 +10,7 @@
            SHORT="Command line plugin for the Xfce panel"
 
 cat << EOF
-The Verve panel plugin is a comfortable command line plugin for the
-Xfce panel.
+The Verve panel plugin is a comfortable command line plugin for the Xfce panel.
 It supports several nice features, such as:
   * Command history
   * Auto-completion (including command history)
