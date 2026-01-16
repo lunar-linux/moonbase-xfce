@@ -1,14 +1,15 @@
           MODULE=xfce4-weather-plugin
-         VERSION=0.11.3
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=0.12.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:002d1fe63906d2f3a012f3cb58cceff1dfbcc466759e36c76d3b03dd01c0dc57
+      SOURCE_VFY=sha256:5dd90b032c06ef4b64b818023154ef9463a2c694a0290e57f3412296c7545ff6
         WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-weather-plugin/start
+            TYPE=meson
          ENTERED=20061124
-         UPDATED=20241224
+         UPDATED=20251123
            SHORT="shows current weather in your panel"
 
 cat << EOF
-xfce4-weather-plugin is a panel plugin that shows the current temperature
-and weather condition, using weather data provided by xoap.weather.com.
+xfce4-weather-plugin is a panel plugin that shows the current temperature and
+weather condition, using weather data provided by xoap.weather.com.
 EOF
