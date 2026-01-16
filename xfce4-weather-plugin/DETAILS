@@ -10,6 +10,6 @@
            SHORT="shows current weather in your panel"
 
 cat << EOF
-xfce4-weather-plugin is a panel plugin that shows the current temperature
-and weather condition, using weather data provided by xoap.weather.com.
+xfce4-weather-plugin is a panel plugin that shows the current temperature and
+weather condition, using weather data provided by xoap.weather.com.
 EOF
