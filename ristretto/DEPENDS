@@ -1,3 +1,5 @@
+depends meson
 depends file
 depends libxfce4ui
 depends libexif
+depends exo
