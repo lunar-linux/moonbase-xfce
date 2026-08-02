@@ -1,11 +1,11 @@
         MODULE=garcon
-       VERSION=4.20.0
-        SOURCE=$MODULE-$VERSION.tar.bz2
+       VERSION=4.21.0
+        SOURCE=$MODULE-$VERSION.tar.xz
     SOURCE_URL=https://archive.xfce.org/src/xfce/garcon/${VERSION%.*}
-    SOURCE_VFY=sha256:7fb8517c12309ca4ddf8b42c34bc0c315e38ea077b5442bfcc4509415feada8f
+    SOURCE_VFY=sha256:3acc3f6b81059199f4e6646da7b6ca39edf84ea90dd3ff87088ffca6aa108269
       WEB_SITE=http://www.xfce.org
        ENTERED=20110118
-       UPDATED=20241224
+       UPDATED=20260802
          SHORT="A menu library for Xfce"
 
 cat << EOF
