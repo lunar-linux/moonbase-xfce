@@ -1,8 +1,8 @@
-depends meson
 depends xfce4-panel
 depends mpd
+depends meson
 
 optional_depends libmpd \
-        "-Dlibmpd=enabled" \
-        "-Dlibmpd=disabled" \
+        "-D libmpd=enabled" \
+        "-D libmpd=disabled" \
         "for libmpd support"

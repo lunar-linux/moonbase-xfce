@@ -1,29 +1,29 @@
-depends xfce4-dev-tools
-depends libxfce4windowing
+depends libwnck3
 depends exo
 depends garcon
-depends libwnck3
+depends xfce4-dev-tools
+depends libxfce4windowing
 
 optional_depends libdbusmenu-gtk3 \
-                 "-Ddbusmenu=enabled" \
-                 "-Ddbusmenu=disabled" \
+                 "-D dbusmenu=enabled" \
+                 "-D dbusmenu=disabled" \
                  "for dbus menu support" \
                  "y"
 
 optional_depends vala \
-                 "-Dvala=enabled" \
-                 "-Dvala=disabled" \
+                 "-D vala=enabled" \
+                 "-D vala=disabled" \
                  "for vala support" \
                  "n"
 
+optional_depends gobject-introspection \
+                 "-D introspection=true" \
+                 "-D introspection=false" \
+                 "for object introspection" \
+ 
 optional_depends gtk-doc \
-                 "-Dgtk-doc=true" \
-                 "-Dgtk-doc=false" \
+                 "-D gtk-doc=true" \
+                 "-D gtk-doc=false" \
                  "for building documentation" \
                  "n"
-
-optional_depends gobject-introspection \
-                 "-Dintrospection=true" \
-                 "-Dintrospection=false" \
-                 "for object introspection" \
-                 "y"
+                "y"

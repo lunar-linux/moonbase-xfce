@@ -1,12 +1,18 @@
-depends meson
-depends xfce4-panel
 depends hicolor-icon-theme
+depends xfce4-panel
+depends meson
 
-optional_depends lm_sensors "-Dlibsensors=enabled" "-Dlibsensors=disabled" \
+optional_depends lm_sensors \
+        "-D libsensors=enabled" \
+        "- Dlibsensors=disabled" \
         "to use LM-sensors to read a vast amount of sensors on the mainboards"
 
-optional_depends libnotify "-Dlibnotify=enabled" "-Dlibnotify=disabled" \
+optional_depends libnotify \
+        "-D libnotify=enabled" \
+        "-D libnotify=disabled" \
         "for desktop notification support"
 
-optional_depends hddtemp "-Dhddtemp=enabled" "-Dhddtemp=disabled" \
+optional_depends hddtemp \
+        "-D hddtemp=enabled" \
+        "-D hddtemp=disabled" \
         "for monitoring the tmperature of the hard drives"

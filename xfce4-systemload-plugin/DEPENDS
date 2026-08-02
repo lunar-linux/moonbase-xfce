@@ -1,8 +1,12 @@
-depends meson
 depends xfce4-panel
+depends meson
 
-optional_depends libgtop "-Dlibgtop=enabled" "-Dlibgtop=disabled" \
+optional_depends libgtop \
+        "-D libgtop=enabled" \
+        "-D libgtop=disabled" \
         "for network utilization monitoring"
 
-optional_depends upower "-Dupower-glib=enabled" "-Dupower-glib=disabled" \
+optional_depends upower \
+        "-D upower-glib=enabled" \
+        "-D upower-glib=disabled" \
         "for adapting update interval to power state"

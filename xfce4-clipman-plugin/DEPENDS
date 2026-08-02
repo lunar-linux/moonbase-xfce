@@ -1,6 +1,6 @@
-depends meson
 depends qrencode
 depends xfce4-panel
+depends meson
 
 optional_depends libX11 \
                  "-Dx11=enabled" \

@@ -1,16 +1,16 @@
-depends meson
 depends pulseaudio
-depends xfce4-panel
 depends intltool
+depends xfce4-panel
+depends meson
 
 optional_depends libnotify \
-                 "-Dlibnotify=enabled" \
-                 "-Dlibnotify=disabled" \
+                 "-D libnotify=enabled" \
+                 "-D libnotify=disabled" \
                  "for default pulse audio mixer support"
 
 optional_depends keybinder3 \
-                 "-Dkeybinder=enabled" \
-                 "-Dkeybinder=disabled" \
+                 "-D keybinder=enabled" \
+                 "-D keybinder=disabled" \
                  "for keybinder support"
 
-optional_depends pavucontrol "" "" "for default pulse audio mixer support"
+optional_depends pavucontrol "" "" "for default pulse audio mixer support" "n"

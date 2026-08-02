@@ -1,9 +1,9 @@
 depends dbus-glib
-depends garcon
 depends libwnck3
 depends libxklavier
 depends libXScrnSaver
 depends intltool
+depends garcon
 
 optional_depends gobject-introspection \
                  "--enable-introspection=yes" \

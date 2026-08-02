@@ -1,9 +1,8 @@
-depends xfce4-panel
 depends upower
+depends xfce4-panel
 depends xfce4-notifyd
 
 optional_depends polkit \
-      "" \
-      "--disable-polkit" \
+      "" "--disable-polkit" \
       "for PolicyKit support" \
       "y"

@@ -1,27 +1,22 @@
 depends dbus-glib
+depends libXi
+depends intltool
 depends exo
 depends garcon
-depends libXi
 depends xfconf
 depends libxfce4ui
-depends intltool
 
 optional_depends libX11 \
                  "--enable-x11" \
                  "--disable-x11" \
                  " for Xorg-based windowing systems"
 
-optional_depends wayland \
-                 "--enable-wayland" \
-                 "--disable-wayland" \
-                 " for Wayland-based windowing systems"
-
 optional_depends libXrandr \
                  "--enable-xrandr" \
                  "--disable-xrandr" \
                  "for X render support" \
                  "y"
-                 
+
 optional_depends upower \
                  "--enable-upower-glib" \
                  "--disable-upower-glib" \
@@ -39,7 +34,7 @@ optional_depends colord \
                  "--disable-colord" \
                  "for colord support" \
                  "y"
-                 
+
 optional_depends libXcursor \
                  "--enable-xcursor" \
                  "--disable-xcursor" \
@@ -63,3 +58,9 @@ optional_depends libcanberra \
                  "--disable-sound-settings" \
                  "for sound control" \
                  "y"
+
+ optional_depends wayland \
+                 "--enable-wayland" \
+                 "--disable-wayland" \
+                 " for Wayland-based windowing systems" \
+                "n"

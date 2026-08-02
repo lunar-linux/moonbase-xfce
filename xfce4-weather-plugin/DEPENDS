@@ -1,7 +1,7 @@
-depends xfce4-panel
 depends libxml2
 depends libsoup-3
 depends hicolor-icon-theme
+depends xfce4-panel
 
 optional_depends upower \
                  "-Dupower-glib=enabled" \
