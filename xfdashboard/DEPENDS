@@ -4,6 +4,5 @@ depends garcon
 depends libxfce4ui
 
 optional_depends libXinerama \
-    "" \
-    "" \
+    ""  "" \
     "for multiple display support"
