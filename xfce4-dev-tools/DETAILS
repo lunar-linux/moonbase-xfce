@@ -1,11 +1,11 @@
           MODULE=xfce4-dev-tools
-         VERSION=4.20.0
+         VERSION=4.21.2
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:1fba39a08a0ecc771eaa3a3b6e4272a4f0b9e7c67d0f66e780cd6090cd4466aa
+      SOURCE_VFY=sha256:a43f726a082b589186d9e6ed076101d41249d1e22bbe61448037550190d7f75a
         WEB_SITE=https://gitlab.xfce.org/xfce/xfce4-dev-tools
          ENTERED=20030715
-         UPDATED=20241224
+         UPDATED=20260802
            SHORT="Autoconf macros and scripts to augment xfce4 app build systems"
 
 cat << EOF
