@@ -1,10 +1,10 @@
-depends xfce4-dev-tools
 depends glib-2
 depends gtk+-3
 depends gdk-pixbuf
 depends libwnck3
 depends libdisplay-info
 depends xrandr
+depends xfce4-dev-tools
 
 optional_depends libX11 \
                  "--enable-x11" \
@@ -25,4 +25,4 @@ optional_depends gobject-introspection \
 optional_depends gtk-doc \
                  "--enable-gtk-doc" \
                  "--enable-gtk-doc=no --enable-gtk-doc-html=no" \
-                 "to generate documentation"
+                 "to generate documentation" "n"
