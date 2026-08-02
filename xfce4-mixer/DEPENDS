@@ -1,0 +1,6 @@
+depends alsa-lib
+depends gstreamer
+depends libunique-3
+depends xfce4-panel
+depends xfce4-dev-tools
+depends meson
