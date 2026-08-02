@@ -1,20 +1,12 @@
+depends libwnck3
 depends exo
 depends garcon
-depends libwnck3
 depends libxfce4windowing
 
 optional_depends libX11 \
                  "--enable-x11" \
                  "--disable-x11" \
                  "for Xorg-based windowing systems"
-
-optional_depends wayland \
-                 "--enable-wayland" \
-                 "--disable-wayland" \
-                 "for Wayland-based windowing systems" y
-
-optional_depends gtk-layer-shell \
-                 "" "" "required if Wayland support is enabled" y
 
 optional_depends libnotify \
                  "--enable-notifications" \
@@ -27,3 +19,12 @@ optional_depends thunar \
                  "--disable-thunarx" \
                  "for desktop file icon support" \
                  "y"
+
+optional_depends wayland \
+                 "--enable-wayland" \
+                 "--disable-wayland" \
+                 "for Wayland-based windowing systems" "n"
+
+optional_depends gtk-layer-shell \
+                 "" "" "required if Wayland support is enabled" "n"
+
