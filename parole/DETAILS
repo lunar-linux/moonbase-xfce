@@ -1,11 +1,12 @@
           MODULE=parole
-         VERSION=4.18.1
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=4.20.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://archive.xfce.org/src/apps/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:0c7364a484812f69cf2b20a2323864203334cc854fd8103d1d1131814ac55a66
+      SOURCE_VFY=sha256:5cf753e670d6518701133eb860d8bceb3a08a496af6a2b7cc67b93320230c983
         WEB_SITE=https://docs.xfce.org/apps/parole/start
+            TYPE=meson
          ENTERED=20110329
-         UPDATED=20241224
+         UPDATED=20260802
            SHORT="media player for the Xfce desktop"
 
 cat << EOF

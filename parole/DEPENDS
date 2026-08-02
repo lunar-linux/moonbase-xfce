@@ -2,15 +2,17 @@ depends dbus-glib
 depends gst-plugins-base
 depends gst-plugins-good
 depends libxfce4ui
+depends xfce4-dev-tools
 depends intltool
+depends meson
 
 optional_depends libnotify \
-                 "--enable-notify-plugin" \
-                 "--disable-notify-plugin" \
+                 "-D notify-plugin=enable" \
+                 "-D notify-plugini=disable" \
                  "for the notification plugin" \
                  "y"
 
 optional_depends taglib \
-                 "--enable-taglib" \
-                 "--disable-taglib" \
+                 "-D taglib=enable" \
+                 "-D taglib=disable" \
                  "for taglib support"
