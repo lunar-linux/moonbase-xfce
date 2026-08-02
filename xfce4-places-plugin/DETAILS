@@ -1,0 +1,13 @@
+          MODULE=xfce4-places-plugin
+         VERSION=1.9.0
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:4175c614749abbb5bcf6f49c88125fb0dd36db69f4c374df23563907b16e2c3f
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-places-plugin/start
+         ENTERED=20260802
+         UPDATED=20260802
+           SHORT="A menu with quick access to folders"
+
+cat << EOF
+A menu with quick access to folders, documents, and removable media.
+EOF
