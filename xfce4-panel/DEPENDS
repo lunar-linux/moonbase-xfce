@@ -20,10 +20,10 @@ optional_depends gobject-introspection \
                  "-D introspection=true" \
                  "-D introspection=false" \
                  "for object introspection" \
- 
+                "y"
+
 optional_depends gtk-doc \
                  "-D gtk-doc=true" \
                  "-D gtk-doc=false" \
                  "for building documentation" \
                  "n"
-                "y"

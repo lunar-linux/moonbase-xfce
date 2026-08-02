@@ -1,0 +1,14 @@
+          MODULE=xfce4-stopwatch-plugin
+         VERSION=0.6.0
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=https://archive.xfce.org/src/panel-plugins/$MODULE/${VERSION%.*}
+      SOURCE_VFY=sha256:9be4825f6dc3b5227ba3c71b345da4159ac3364f659784b57845bb06cf31ef43
+        WEB_SITE=https://docs.xfce.org/panel-plugins/xfce4-stopwatch-plugin/start
+            TYPE=meson
+         ENTERED=20260802
+         UPDATED=20260802
+           SHORT="A simple stopwatch plugin for the Xfce panel"
+
+cat << EOF
+A simple stopwatch plugin for the Xfce panel.
+EOF
