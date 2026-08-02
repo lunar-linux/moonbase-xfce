@@ -1,2 +1,2 @@
-depends libxfce4util
 depends a2ps
+depends libxfce4util
