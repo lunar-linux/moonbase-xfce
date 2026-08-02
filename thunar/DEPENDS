@@ -3,8 +3,7 @@ depends libpng
 depends shared-mime-info
 
 optional_depends dbus-glib \
-   "" \
-   "" \
+   ""  "" \
    "for dbus support" \
    "y"
 
@@ -30,6 +29,12 @@ optional_depends libexif \
                  "--disable-exif" \
                  "enable Exif support"
 
+optional_depends gobject-introspection \
+                 "--enable-introspection=yes" \
+                 "--enable-introspection=no" \
+                 "for object introspection" \
+                 "y"
+
 optional_depends gvfs "" "" "enable trash support and mounting remote filesystems"
 optional_depends tumbler "" "" "for thumbnail previews"
 optional_depends xfce4-panel "" "" "for trash applet"
@@ -39,9 +44,3 @@ optional_depends gtk-doc \
                  "--enable-gtk-doc=no --enable-gtk-doc-html=no" \
                  "for installing the documentation" \
                  "n"
-
-optional_depends gobject-introspection \
-                 "--enable-introspection=yes" \
-                 "--enable-introspection=no" \
-                 "for object introspection" \
-                 "y"
