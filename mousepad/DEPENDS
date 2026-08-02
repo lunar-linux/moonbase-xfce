@@ -1,8 +1,9 @@
 depends meson
 depends gtksourceview
-depends xfconf
 depends desktop-file-utils
 depends hicolor-icon-theme
+depends xfconf
+depends xfce4-dev-tools
 depends intltool
 
 optional_depends gspell "-D gspell-plugin=enabled" \
