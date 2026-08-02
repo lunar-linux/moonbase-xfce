@@ -1,14 +1,14 @@
-depends meson
 depends gtk+-3
 depends libburn
 depends libisofs
-depends exo
 depends desktop-file-utils
+depends exo
+depends meson
 
 optional_depends gst-plugins-base \
                 "-D gstreamer=enabled" \
                 "-D gstreamer=disabled" \
-               "for gstreamer support"
+                "for gstreamer support"
 
 optional_depends libgudev \
                  "-D gudev=enabled" \

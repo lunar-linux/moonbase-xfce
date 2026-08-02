@@ -7,12 +7,12 @@ depends intltool
 depends meson
 
 optional_depends libnotify \
-                 "-D notify-plugin=enable" \
-                 "-D notify-plugini=disable" \
+                 "-D notify-plugin=enabled" \
+                 "-D notify-plugini=disabled" \
                  "for the notification plugin" \
                  "y"
 
 optional_depends taglib \
-                 "-D taglib=enable" \
-                 "-D taglib=disable" \
+                 "-D taglib=enabled" \
+                 "-D taglib=disabled" \
                  "for taglib support"
