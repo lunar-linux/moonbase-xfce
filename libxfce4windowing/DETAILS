@@ -1,11 +1,11 @@
           MODULE=libxfce4windowing
-         VERSION=4.20.5
+         VERSION=4.20.6
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://archive.xfce.org/src/xfce/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:6b4e19a66db650c9c8a88f00bbf266e9ced0070b7dbc0aaeea05be0fc6a2eb4d
+      SOURCE_VFY=sha256:2d06b6a567c965afbca1a51419fc728fd83bd0460e30ab62c34564d5e0aac9e3
         WEB_SITE=https://gitlab.xfce.org/xfce/libxfce4windowing
          ENTERED=20241224
-         UPDATED=20251231
+         UPDATED=20260802
            SHORT="Window abstraction library for Xfce4"
 
 cat << EOF
